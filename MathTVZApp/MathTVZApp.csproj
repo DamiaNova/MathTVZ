@@ -67,10 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ekrani\404PageNotFound.aspx" />
+    <Content Include="Ekrani\Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ekrani\404PageNotFound.aspx.cs">
+      <DependentUpon>404PageNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\404PageNotFound.aspx.designer.cs">
+      <DependentUpon>404PageNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -94,7 +110,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ekrani\" />
     <Folder Include="Klase\" />
     <Folder Include="Repozitoriji\" />
   </ItemGroup>
