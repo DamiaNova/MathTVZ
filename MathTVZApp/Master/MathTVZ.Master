@@ -9,12 +9,14 @@
 </head>
 <body>
     <header>
-        <div class="elNavigacije"></div>
+        <div class="elNavigacije">
+            <a href="#">Što je MathTVZ?</a>
+        </div>
         <div class="zvjezdica">
             <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
         </div>
         <div class="elNavigacije">
-            <a href="#">Što je MathTVZApp?</a>
+            <a href="#">Lekcije</a>
         </div>
         <div class="zvjezdica">
             <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
@@ -25,11 +27,15 @@
         <div class="zvjezdica">
             <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
         </div>
-        <div class="elNavigacije"></div>
+        <div class="elNavigacije">
+            <a href="#">Prijava</a>
+        </div>
         <div class="zvjezdica">
             <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
         </div>
-        <div class="elNavigacije"></div>
+        <div class="elNavigacije">
+            <a href="#">Registracija</a>
+        </div>
         <%--<img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>--%>
     </header>
     <form id="BodyForm" runat="server">
@@ -38,7 +44,7 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-    <footer>
+    <footer style="display: none">
         <p id="copyright">Copyright © Mia Blažeković</p>
     </footer>
 </body>

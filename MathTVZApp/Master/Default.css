@@ -6,14 +6,14 @@ header {
     position: relative;
     display: flex;
     width: 100%;
-    background-color: #9f9fdf;
-    height: 50px;
-    /*opacity: 0.3;*/
+    /*background-color: #5d4fa5;*/
+    background-color: #1b0f3f;
+    height: 30px;
 }
 body {
     height: 100%;
     width: 100%;
-    background-color: #262673;
+    background-color: white;
 }
 footer {
     position: absolute;
@@ -31,19 +31,24 @@ p {
     color: white;
 }
 a {
-    color: pink;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 10px;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     position: absolute;
-    width: 80px;
+    width: 100px;
     height: 10px;
     top: 50%;
     left: 50%;
-    margin-top: -5px;
-    margin-left: -40px;
+    margin-top: -7px;
+    margin-left: -50px;
+    opacity: 0.8;
+}
+img{
+    width:100%;
+    height: 100%;
 }
 #copyright{
     display: block;
@@ -54,32 +59,43 @@ a {
     position: absolute;
     left:50%;
     top: 50%;
-    margin-left: -20px;
-    margin-top: -20px;
+    margin-left: -12px;
+    margin-top: -12px;
     align-self: center;
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
 }
-.zvjezdica{
+#divPrvi {
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    height: 300px;
+    width: 80%;
+    margin-top: -100px;
+    background-color: white;
+    border: 7px solid pink;
+    border-radius: 30px;
+}
+.zvjezdica {
     position: relative;
     height: 100%;
     width: 5%;
-    display:inline-block;
+    display: inline-block;
 }
 .elNavigacije {
     position:relative;
     height: 100%;
     width: 16%;
     display: inline-block;
-    background-color: red;
 }
 .imgZvjezdica {
     opacity: 1.0;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 10px;
-    height: 10px;
-    margin-left: -5px;
-    margin-top: -5px;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    margin-top: -3px;
 }
