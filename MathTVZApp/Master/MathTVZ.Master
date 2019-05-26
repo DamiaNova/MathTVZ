@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MathTVZ.master.cs" Inherits="MathTVZApp.MathTVZ" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>MathTVZApp</title>
+    <link href="~/Master/Default.css" rel="stylesheet" type="text/css" runat="server"/>
+</head>
+<body>
+    <form id="BodyForm" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div id="footer">
+        <p id="copyright">Copyright © Mia Blažeković</p>
+    </div>
+</body>
+</html>

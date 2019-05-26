@@ -70,6 +70,7 @@
     <Content Include="Ekrani\404PageNotFound.aspx" />
     <Content Include="Ekrani\Index.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Master\Default.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,17 +91,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="MathTVZ.Master.cs">
+    <Compile Include="Master\MathTVZ.Master.cs">
       <DependentUpon>MathTVZ.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MathTVZ.Master.designer.cs">
+    <Compile Include="Master\MathTVZ.Master.designer.cs">
       <DependentUpon>MathTVZ.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MathTVZ.Master" />
+    <Content Include="Master\MathTVZ.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
