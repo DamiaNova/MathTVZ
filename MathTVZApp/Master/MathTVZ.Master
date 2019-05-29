@@ -36,10 +36,10 @@
         <div class="elNavigacije">
             <a href="#">Registracija</a>
         </div>
-        <%--<img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>--%>
     </header>
     <form id="BodyForm" runat="server">
         <div>
+            <img src="~/Slike/MathTvz.png" alt="naslovna slika" runat="server" id="imgNaslovna"/>
             <asp:ContentPlaceHolder ID="BodyContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>

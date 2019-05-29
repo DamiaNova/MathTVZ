@@ -71,6 +71,7 @@
     <Content Include="Ekrani\Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Master\Default.css" />
+    <Content Include="Slike\Characters.png" />
     <Content Include="Slike\MathTvz.png" />
     <Content Include="Slike\tvzLogo.png" />
     <Content Include="Slike\zvjezdica.png" />

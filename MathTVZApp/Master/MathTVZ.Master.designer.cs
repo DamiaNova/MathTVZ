@@ -31,6 +31,15 @@ namespace MathTVZApp {
         protected global::System.Web.UI.HtmlControls.HtmlForm BodyForm;
         
         /// <summary>
+        /// imgNaslovna control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgNaslovna;
+        
+        /// <summary>
         /// BodyContent control.
         /// </summary>
         /// <remarks>
