@@ -44,8 +44,10 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-    <footer style="display: none">
+    <footer>
+        <%--<img src="~/Slike/zvjezdica.png" id="imgZvjezdicaFooterLijeva" runat="server" alt="zvjezdica" />--%>
         <p id="copyright">Copyright © Mia Blažeković</p>
+        <%--<img src="~/Slike/zvjezdica.png" id="imgZvjezdicaFooterDesna" runat="server" alt="zvjezdica" />--%>
     </footer>
 </body>
 </html>

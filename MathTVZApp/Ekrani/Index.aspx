@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Index" Language="C#" MasterPageFile="~/Master/MathTVZ.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="MathTVZApp.Ekrani.Index" %>
 <asp:Content ID="ContentMain" ContentPlaceHolderID="BodyContent" runat="server">
-    <div id="divPrvi">
+    <div class="omotač">
+        <div id="divPrvi">
         <h1>Što je MathTVZ?</h1>
         <p class="članak">Iz želje da se pomogne i na neki način olakša brucošima teško razdoblje privikavanja kroz koje 
             većina prolazi tijekom prvog semestra prve godine studija, nastala je web aplikaciju MathTVZ koja 
@@ -12,5 +13,11 @@
             Svi zadaci imaju rješenja ispisana „korak po korak“ kako bi bili što razumljiviji 
             svim studentima, bez obzira na njihovu trenutnu razinu znanja.
         </p>
+        </div>
+        <div id="divRegiPrijava">
+            <h1 id="RegistracijaPrijava">
+                Želiš nam se pridružiti?
+            </h1>
+        </div>
     </div>
 </asp:Content>
