@@ -18,6 +18,11 @@
             <h1 id="RegistracijaPrijava">
                 Želiš nam se pridružiti?
             </h1>
+            <asp:Button ID="btnRegistracija" Text="Registracija" runat="server" CssClass="btnRegistracija"/>
+            <img src="~/Slike/brojPet.png" runat="server" alt="broj 5 među oblacima" class="imgBrojPet" />
+            <img src="~/Slike/brojDva.png" runat="server" alt="broj 2 među oblacima" class="imgBrojDva" />
+            <%--<p id="lblPrijava">Već imaš račun?</p>
+            <asp:Button ID="btnPrijava" Text="Prijava" runat="server" CssClass="btnPrijava" />--%>
         </div>
     </div>
 </asp:Content>

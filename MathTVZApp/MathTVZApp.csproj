@@ -71,8 +71,10 @@
     <Content Include="Ekrani\Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Master\Default.css" />
+    <Content Include="Slike\brojDva.png" />
     <Content Include="Slike\Characters.png" />
     <Content Include="Slike\MathTvz.png" />
+    <Content Include="Slike\brojPet.png" />
     <Content Include="Slike\tvzLogo.png" />
     <Content Include="Slike\zvjezdica.png" />
     <Content Include="Web.config" />
