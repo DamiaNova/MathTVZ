@@ -19,6 +19,7 @@ namespace MathTVZApp
         void RegisterCustomRoutes(RouteCollection routes)
         {
             routes.MapPageRoute("PocetnaStranica","","~/Ekrani/Index.aspx");
+            routes.MapPageRoute("Registracija", "Registracija", "~/Ekrani/Registracija.aspx");
             routes.MapPageRoute("404PageNotFound", "404", "~/Ekrani/404PageNotFound.aspx");
         }
     }

@@ -24,7 +24,6 @@ footer {
     display: flex;
     align-items: center;
     vertical-align: middle;
-    margin-top: -30px;
 }
 h1 {
     text-align: center;
@@ -97,9 +96,20 @@ img{
 #divRegiPrijava {
     display: block;
     width: 100%;
-    height: 470px;
+    height: 500px;
     background: linear-gradient(to bottom, #1b0f3f 0%, rgb(066, 040, 147) 100%);
-    margin-top: -50px;
+    margin-top: -5%;
+}
+#divRegistracija {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    width: 80%;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid rgb(235, 184, 224);
 }
 #RegistracijaPrijava{
     padding-top:10%;

@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="elNavigacije">
-            <a href="#">Što je MathTVZ?</a>
+            <a href="/">Što je MathTVZ?</a>
         </div>
         <div class="zvjezdica">
             <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
@@ -34,7 +34,7 @@
             <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
         </div>
         <div class="elNavigacije">
-            <a href="#">Registracija</a>
+            <a href="Registracija">Registracija</a>
         </div>
     </header>
     <form id="BodyForm" runat="server">
@@ -45,9 +45,7 @@
         </div>
     </form>
     <footer>
-        <%--<img src="~/Slike/zvjezdica.png" id="imgZvjezdicaFooterLijeva" runat="server" alt="zvjezdica" />--%>
         <p id="copyright">Copyright © Mia Blažeković</p>
-        <%--<img src="~/Slike/zvjezdica.png" id="imgZvjezdicaFooterDesna" runat="server" alt="zvjezdica" />--%>
     </footer>
 </body>
 </html>

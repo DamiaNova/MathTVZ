@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Ekrani\404PageNotFound.aspx" />
     <Content Include="Ekrani\Index.aspx" />
+    <Content Include="Ekrani\Registracija.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Master\Default.css" />
     <Content Include="Slike\brojDva.png" />
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="Ekrani\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\Registracija.aspx.cs">
+      <DependentUpon>Registracija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\Registracija.aspx.designer.cs">
+      <DependentUpon>Registracija.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
