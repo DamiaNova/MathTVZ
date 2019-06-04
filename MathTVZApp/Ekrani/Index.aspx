@@ -17,7 +17,7 @@
             <h1 id="RegistracijaPrijava">
                 Želiš nam se pridružiti?
             </h1>
-            <asp:Button ID="btnRegistracija" Text="Registracija" runat="server" CssClass="btnRegistracija" PostBackUrl="../Registracija"/>
+            <asp:Button ID="Button2" Text="Registracija" runat="server" CssClass="btnRegistracija" PostBackUrl="../Registracija"/>
             <img src="~/Slike/brojPetCopy.png" runat="server" alt="broj 5 među oblacima" class="imgBrojPet" />
             <img src="~/Slike/brojDva.png" runat="server" alt="broj 2 među oblacima" class="imgBrojDva"/>
         </div>
