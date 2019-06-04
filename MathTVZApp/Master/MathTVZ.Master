@@ -10,31 +10,49 @@
 <body>
     <header>
         <div class="elNavigacije">
-            <a href="/">Što je MathTVZ?</a>
+            <span class="wrapperZvjezdice">
+                <a href="/">Što je MathTVZ?</a>
+            </span>
         </div>
         <div class="zvjezdica">
-            <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            <span class="wrapperZvjezdice">
+                 <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            </span>
         </div>
         <div class="elNavigacije">
-            <a href="#">Lekcije</a>
+            <span class="wrapperZvjezdice">
+                <a href="#">Lekcije</a>
+            </span>
         </div>
         <div class="zvjezdica">
-            <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            <span class="wrapperZvjezdice">
+                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            </span>
         </div>
         <div class="elNavigacije">
-            <img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>
+            <span class="wrapperZvjezdice">
+                <img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>
+            </span>
         </div>
         <div class="zvjezdica">
-            <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            <span class="wrapperZvjezdice">
+                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            </span>
         </div>
         <div class="elNavigacije">
-            <a href="#">Prijava</a>
+            <span class="wrapperZvjezdice">
+                <a href="#">Prijava</a>
+            </span>
         </div>
         <div class="zvjezdica">
-            <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            <span class="wrapperZvjezdice">
+                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+            </span>
         </div>
         <div class="elNavigacije">
-            <a href="Registracija">Registracija</a>
+            <span class="wrapperZvjezdice">
+                <a href="Registracija">Registracija</a>
+            </span>
         </div>
     </header>
     <form id="BodyForm" runat="server">
