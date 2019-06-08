@@ -1,12 +1,12 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MathTVZ.master.cs" Inherits="MathTVZApp.MathTVZ" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RegistracijaPrijava.master.cs" Inherits="MathTVZApp.Master.RegistracijaPrijava" %>
 
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
-    <title>MathTVZApp</title>
+    <title>Registracija/Prijava</title>
     <link href="~/CSS/Master.css" rel="stylesheet" type="text/css" runat="server"/>
-    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    <asp:ContentPlaceHolder ID="HeadContentRegiPrijava" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -57,14 +57,14 @@
             </span>
         </div>
     </header>
-    <form id="BodyForm" runat="server">
+    <form id="BodyFormRegiPrijava" runat="server">
         <div>
-            <img src="~/Slike/MathTvz.png" alt="naslovna slika" runat="server" id="imgNaslovna"/>
-            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+            <img src="~/Slike/RegistracijaPrijava.png" alt="pozadinska slika" runat="server" id="imgPozadinskaSlika"/>
+            <asp:ContentPlaceHolder ID="BodyContentRegiPrijava" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
-    <footer>
+    <footer id="footerRegiPrijava">
         <p id="copyright">Copyright © Mia Blažeković</p>
     </footer>
 </body>

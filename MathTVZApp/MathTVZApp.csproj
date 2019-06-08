@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\Index.css" />
+    <Content Include="CSS\RegistracijaPrijava.css" />
     <Content Include="Ekrani\404PageNotFound.aspx" />
     <Content Include="Ekrani\Index.aspx" />
     <Content Include="Ekrani\Registracija.aspx" />
@@ -78,6 +79,7 @@
     <Content Include="Slike\Characters.png" />
     <Content Include="Slike\MathTvz.png" />
     <Content Include="Slike\brojPet.png" />
+    <Content Include="Slike\RegistracijaPrijava.png" />
     <Content Include="Slike\tvzLogo.png" />
     <Content Include="Slike\zvjezdica.png" />
     <Content Include="Web.config" />
@@ -114,10 +116,18 @@
     <Compile Include="Master\MathTVZ.Master.designer.cs">
       <DependentUpon>MathTVZ.Master</DependentUpon>
     </Compile>
+    <Compile Include="Master\RegistracijaPrijava.Master.cs">
+      <DependentUpon>RegistracijaPrijava.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\RegistracijaPrijava.Master.designer.cs">
+      <DependentUpon>RegistracijaPrijava.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master\MathTVZ.Master" />
+    <Content Include="Master\RegistracijaPrijava.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
