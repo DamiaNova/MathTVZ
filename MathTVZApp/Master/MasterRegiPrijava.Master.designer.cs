@@ -7,19 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MathTVZApp {
+namespace MathTVZApp.Master {
     
     
-    public partial class MathTVZ {
-        
-        /// <summary>
-        /// HeadContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+    public partial class MasterBezHeadera {
         
         /// <summary>
         /// logo control.
@@ -31,30 +22,21 @@ namespace MathTVZApp {
         protected global::System.Web.UI.HtmlControls.HtmlImage logo;
         
         /// <summary>
-        /// BodyForm control.
+        /// RegiBodyForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm BodyForm;
+        protected global::System.Web.UI.HtmlControls.HtmlForm RegiBodyForm;
         
         /// <summary>
-        /// imgNaslovna control.
+        /// BodyContentRegi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage imgNaslovna;
-        
-        /// <summary>
-        /// BodyContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder BodyContent;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder BodyContentRegi;
     }
 }

@@ -1,0 +1,83 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 4.5%;
+    color: rgb(235, 184, 224);
+}
+#divPrvi {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    width: 80%;
+    margin-top: -9%;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid rgb(235, 184, 224);
+}
+#divRegiPrijava {
+    width: 100%;
+    background: linear-gradient(to bottom, #1b0f3f 0%, rgb(066, 040, 147) 100%);
+    margin-top: -5%;
+    height: 660px;
+}
+#RegistracijaPrijava {
+    padding-top: 10%;
+}
+.članak {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(121,118,203);
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    line-height: 160%;
+    padding-bottom: 2%
+}
+.imgStudenti {
+    vertical-align: central;
+    display: block;
+    height: 50%;
+    width: 45%;
+    align-self: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: -2%;
+}
+.imgBrojPet {
+    position: absolute;
+    display: block;
+    height: 65%;
+    width: 42%;
+    padding-left: 1%;
+}
+
+.imgBrojDva {
+    position: absolute;
+    display: block;
+    height: 65%;
+    width: 42%;
+    margin-left: 58%;
+}
+.btnRegistracija {
+    position: absolute;
+    display: block;
+    height: 130px;
+    width: 50%;
+    color: rgb(237, 239, 255);
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 250%;
+    font-family: 'Arial Rounded MT';
+    background: linear-gradient(to bottom, #ff6699 0%, #993399 100%);
+    box-shadow: 0px 5px 5px #4a1c33;
+    border: hidden;
+}

@@ -5,7 +5,9 @@
 <html>
 <head runat="server">
     <title>MathTVZApp</title>
-    <link href="~/Master/Default.css" rel="stylesheet" type="text/css" runat="server"/>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/CSS/Master.css" rel="stylesheet" type="text/css" runat="server"/>
 </head>
 <body>
     <header>

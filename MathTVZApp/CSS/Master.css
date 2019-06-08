@@ -1,0 +1,92 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #1b0f3f;
+    height: 50px;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1b0f3f;
+    color: #ede7fd;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+a {
+    color: #ede7fd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.8;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+#copyright {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#logo {
+    position: absolute;
+    left:50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    align-self: center;
+    width: 24px;
+    height: 24px;
+}
+.zvjezdica {
+    position: relative;
+    height: 100%;
+    width: 5%;
+    display: inline-block;
+}
+.elNavigacije {
+    position:relative;
+    height: 100%;
+    width: 16%;
+    display: inline-block;
+}
+.wrapperZvjezdice {
+    width:100%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.imgZvjezdica {
+    display: block;
+    opacity: 1.0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}

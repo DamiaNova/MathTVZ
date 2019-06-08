@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterRegiPrijava.Master.cs" Inherits="MathTVZApp.Master.MasterBezHeadera" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>MathTVZApp</title>
+    <link href="~/Master/Default.css" rel="stylesheet" type="text/css" runat="server"/>
+</head>
+<body id="regiBody">
+    <header id="regiHeader">
+    <div class="elNavigacije">
+        <span class="wrapperZvjezdice">
+            <a href="/">Što je MathTVZ?</a>
+        </span>
+    </div>
+    <div class="zvjezdica">
+        <span class="wrapperZvjezdice">
+                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+        </span>
+    </div>
+    <div class="elNavigacije">
+        <span class="wrapperZvjezdice">
+            <a href="#">Lekcije</a>
+        </span>
+    </div>
+    <div class="zvjezdica">
+        <span class="wrapperZvjezdice">
+            <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+        </span>
+    </div>
+    <div class="elNavigacije">
+        <span class="wrapperZvjezdice">
+            <img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>
+        </span>
+    </div>
+    <div class="zvjezdica">
+        <span class="wrapperZvjezdice">
+            <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+        </span>
+    </div>
+    <div class="elNavigacije">
+        <span class="wrapperZvjezdice">
+            <a href="#">Prijava</a>
+        </span>
+    </div>
+    <div class="zvjezdica">
+        <span class="wrapperZvjezdice">
+            <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+        </span>
+    </div>
+    <div class="elNavigacije">
+        <span class="wrapperZvjezdice">
+            <a href="Registracija">Registracija</a>
+        </span>
+    </div>
+    </header>
+    <form id="RegiBodyForm" runat="server">
+        <div id="divRegiMain">
+            <asp:ContentPlaceHolder ID="BodyContentRegi" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer id="regiFooter">
+        <p id="copyright">Copyright © Mia Blažeković</p>
+    </footer>
+</body>
+</html>

@@ -67,11 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Index.css" />
     <Content Include="Ekrani\404PageNotFound.aspx" />
     <Content Include="Ekrani\Index.aspx" />
     <Content Include="Ekrani\Registracija.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Master\Default.css" />
+    <Content Include="CSS\Master.css" />
     <Content Include="Slike\brojDva.png" />
     <Content Include="Slike\brojPetCopy.png" />
     <Content Include="Slike\Characters.png" />

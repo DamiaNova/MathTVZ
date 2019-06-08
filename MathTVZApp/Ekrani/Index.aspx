@@ -1,4 +1,9 @@
 ﻿<%@ Page Title="Index" Language="C#" MasterPageFile="~/Master/MathTVZ.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="MathTVZApp.Ekrani.Index" %>
+
+<asp:Content ID="ContentCSS" ContentPlaceHolderID="HeadContent" runat="server">
+    <link href="/CSS/Index.css" rel="stylesheet" type="text/css"/>
+</asp:Content>
+
 <asp:Content ID="ContentMain" ContentPlaceHolderID="BodyContent" runat="server">
         <div id="divPrvi">
             <h1>Što je MathTVZ?</h1>
@@ -17,7 +22,7 @@
             <h1 id="RegistracijaPrijava">
                 Želiš nam se pridružiti?
             </h1>
-            <asp:Button ID="Button2" Text="Registracija" runat="server" CssClass="btnRegistracija" PostBackUrl="../Registracija"/>
+            <asp:Button ID="btnRegistracija" Text="Registracija" runat="server" CssClass="btnRegistracija" PostBackUrl="../Registracija"/>
             <img src="~/Slike/brojPetCopy.png" runat="server" alt="broj 5 među oblacima" class="imgBrojPet" />
             <img src="~/Slike/brojDva.png" runat="server" alt="broj 2 među oblacima" class="imgBrojDva"/>
         </div>
