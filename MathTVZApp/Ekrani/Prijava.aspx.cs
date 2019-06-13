@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace MathTVZApp.Ekrani
 {
-    public partial class Registracija : System.Web.UI.Page
+    public partial class Prijava : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -20,6 +20,16 @@
     margin-top: -407px;
     margin-left:410px;
 }
+.aRegistrirajteSe {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(219, 038, 098);
+    position: absolute;
+    margin-top: -407px;
+    margin-left: 368px;
+}
 .pKorImeEmail {
     position: absolute;
     font-size: 14px;

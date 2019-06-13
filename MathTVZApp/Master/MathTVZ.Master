@@ -43,7 +43,7 @@
         </div>
         <div class="elNavigacije">
             <span class="wrapperZvjezdice">
-                <a href="#">Prijava</a>
+                <a href="Prijava">Prijava</a>
             </span>
         </div>
         <div class="zvjezdica">

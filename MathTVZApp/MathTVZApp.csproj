@@ -71,6 +71,7 @@
     <Content Include="CSS\RegistracijaPrijava.css" />
     <Content Include="Ekrani\404PageNotFound.aspx" />
     <Content Include="Ekrani\Index.aspx" />
+    <Content Include="Ekrani\Prijava.aspx" />
     <Content Include="Ekrani\Registracija.aspx" />
     <Content Include="Global.asax" />
     <Content Include="CSS\Master.css" />
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Ekrani\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\Prijava.aspx.cs">
+      <DependentUpon>Prijava.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\Prijava.aspx.designer.cs">
+      <DependentUpon>Prijava.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ekrani\Registracija.aspx.cs">
       <DependentUpon>Registracija.aspx</DependentUpon>
