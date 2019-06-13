@@ -80,6 +80,7 @@
     <Content Include="Slike\Characters.png" />
     <Content Include="Slike\MathTvz.png" />
     <Content Include="Slike\brojPet.png" />
+    <Content Include="Slike\pozor.png" />
     <Content Include="Slike\RegistracijaPrijava.png" />
     <Content Include="Slike\tvzLogo.png" />
     <Content Include="Slike\zvjezdica.png" />

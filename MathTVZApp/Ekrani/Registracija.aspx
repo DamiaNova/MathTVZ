@@ -7,9 +7,11 @@
         <p class="pPitanje">Već imate korisnički račun?</p>
         <a href="Prijava" class="aPrijaviteSe">Prijavite se.</a>
         <p class="pKorImeEmail">Korisničko ime ili e-mail adresa</p>
-        <asp:TextBox ID="txbKorImeEmail" runat="server" CssClass="txbKorisnickoIme" SpellCheck="False"></asp:TextBox>
+        <asp:TextBox ID="txbUsername" runat="server" CssClass="txbKorisnickoIme" SpellCheck="False"></asp:TextBox>
         <p class="pLozinka">Lozinka</p>
         <asp:TextBox ID="txbLozinkaZaPrijavu" runat="server" CssClass="txbLozinka" TextMode="Password"></asp:TextBox>
-        <asp:Button ID="btnRegistracija" runat="server" CssClass="btnRegiPrijava" Text="Registriraj se"/>
+        <asp:Button ID="btnRegistracija" runat="server" CssClass="btnRegiPrijava" Text="Registriraj se" OnClick="btnRegistracija_Click"/>
+        <img src="~\Slike\pozor.png" alt="prekratka lozinka" ID="imgPozorLozinka" class="imgPozorLozinka" runat="server" Style="visibility: hidden"/>
+        <img src="~\Slike\pozor.png" alt="prekratko korisničko ime" ID="imgPozorUsername" class="imgPozorUsername" runat="server" Style="visibility: hidden"/>
     </div>
 </asp:Content>

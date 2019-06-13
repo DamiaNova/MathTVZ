@@ -13,13 +13,13 @@ namespace MathTVZApp.Ekrani {
     public partial class Registracija {
         
         /// <summary>
-        /// txbKorImeEmail control.
+        /// txbUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txbKorImeEmail;
+        protected global::System.Web.UI.WebControls.TextBox txbUsername;
         
         /// <summary>
         /// txbLozinkaZaPrijavu control.
@@ -38,5 +38,23 @@ namespace MathTVZApp.Ekrani {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnRegistracija;
+        
+        /// <summary>
+        /// imgPozorLozinka control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgPozorLozinka;
+        
+        /// <summary>
+        /// imgPozorUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgPozorUsername;
     }
 }
