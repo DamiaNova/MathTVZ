@@ -58,7 +58,7 @@
         </div>
     </header>
     <form id="BodyFormRegiPrijava" runat="server">
-        <div>
+        <div id="omotacRegistracijaPrijava">
             <img src="~/Slike/RegistracijaPrijava.png" alt="pozadinska slika" runat="server" id="imgPozadinskaSlika"/>
             <asp:ContentPlaceHolder ID="BodyContentRegiPrijava" runat="server">
             </asp:ContentPlaceHolder>

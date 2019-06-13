@@ -2,3 +2,78 @@
     margin: 0;
     padding: 0;
 }
+.pPitanje {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(099, 093, 135);
+    position: absolute;
+    margin-top: -407px;
+    margin-left: 567px;
+}
+.aPrijaviteSe {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(219, 038, 098);
+    position: absolute;
+    margin-top: -407px;
+    margin-left:410px;
+}
+.pKorImeEmail {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(018, 008, 072);
+    margin-top: -347px;
+    margin-left: 567px;
+}
+.pLozinka {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(018, 008, 072);
+    margin-top: -283px;
+    margin-left: 567px;
+}
+.txbKorisnickoIme {
+    display: block;
+    width: 395px;
+    height: 25px;
+    position: absolute;
+    margin-left: 567px;
+    margin-top: -326px;
+    border: 1px solid rgb(211, 210, 216);
+    font-size: 12px;
+    padding-left: 5px;
+    color: rgb(018, 008, 072);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.txbLozinka {
+    display: block;
+    width: 395px;
+    height: 25px;
+    position: absolute;
+    margin-left: 567px;
+    margin-top: -263px;
+    border: 1px solid rgb(211, 210, 216);
+    font-size: 12px;
+    padding-left: 5px;
+    color: rgb(018, 008, 072);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btnRegiPrijava {
+    padding:0;
+    display: block;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 697px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+}

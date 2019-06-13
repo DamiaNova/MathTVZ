@@ -26,6 +26,8 @@ footer {
     vertical-align: middle;
 }
 #footerRegiPrijava{
+    position: absolute;
+    bottom: 0;
     margin-top: -40px;
 }
 p {
@@ -92,4 +94,7 @@ img{
     margin-right: auto;
     width: 30%;
     height: 30%;
+}
+#omotacRegistracijaPrijava {
+    position: absolute;
 }

@@ -11,7 +11,11 @@ namespace MathTVZApp.Ekrani
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                txbKorImeEmail.Text = string.Empty;
+                txbLozinkaZaPrijavu.Text = string.Empty;
+            }
         }
     }
 }
