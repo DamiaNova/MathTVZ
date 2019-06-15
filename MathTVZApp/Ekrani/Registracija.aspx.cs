@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace MathTVZApp.Ekrani
 {
@@ -28,10 +29,15 @@ namespace MathTVZApp.Ekrani
             }
             else
             {
-                //Pohrani u bazu podataka
+                if (SpremiRegistraciju())
+                {
+                    InicijalizacijaForme();
+                    //redirekcija na početnu dobrodošli stranicu
+                }
             }
         }
 
+        //Metode:
         public bool ProvjeraIspravnostiUnosa()
         {
             bool lozinkaOK;
@@ -67,13 +73,38 @@ namespace MathTVZApp.Ekrani
             return OK;
         }
 
+        public bool SpremiRegistraciju()
+        {
+            SqlConnection con = new SqlConnection();
+            var spremljeno = false;
+            con.ConnectionString =
+                "Server=localhost;" +
+                "Database=MathTVZ;" +
+                "Trusted_Connection=True;";
+
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("insert into korisnici values(@KorisnickoIme, @Lozinka)", con);
+                cmd.Parameters.AddWithValue("KorisnickoIme", txbUsername.Text);
+                cmd.Parameters.AddWithValue("Lozinka", txbLozinkaZaPrijavu.Text);
+                cmd.ExecuteNonQuery();
+                spremljeno = true;
+            }
+            catch (Exception)
+            {
+                //logiranje
+            }
+
+            return spremljeno;
+        }
+
         public void InicijalizacijaForme()
         {
-            txbLozinkaZaPrijavu.BackColor = System.Drawing.ColorTranslator.FromHtml("white");
             txbUsername.Text = string.Empty;
             txbLozinkaZaPrijavu.Text = string.Empty;
-            txbLozinkaZaPrijavu.Attributes.Add("style", "border: 0px");
-            txbUsername.Attributes.Add("style", "border: 0px");
+            txbLozinkaZaPrijavu.Attributes.Add("border", "1px solid rgb(211, 210, 216)");
+            txbUsername.Attributes.Add("border", "1px solid rgb(211, 210, 216)");
             imgPozorLozinka.Attributes.Add("style", "visibility: hidden");
             imgPozorUsername.Attributes.Add("style", "visibility: hidden");
         }
