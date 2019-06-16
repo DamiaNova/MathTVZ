@@ -10,6 +10,9 @@
         <asp:TextBox ID="txbKorImeEmail" runat="server" CssClass="txbKorisnickoIme" SpellCheck="False"></asp:TextBox>
         <p class="pLozinka">Lozinka</p>
         <asp:TextBox ID="txbLozinkaZaPrijavu" runat="server" CssClass="txbLozinka" TextMode="Password"></asp:TextBox>
-        <asp:Button ID="btnPrijava" runat="server" CssClass="btnRegiPrijava" Text="Prijavi se"/>
+        <asp:Button ID="btnPrijava" runat="server" CssClass="btnRegiPrijava" Text="Prijavi se" OnClick="btnPrijava_Click"/>
+        <asp:Label ID="NeuspjesnaPrijava" runat="server" CssClass="lblNeuspjesnaPrijava" Style="visibility: hidden">Neuspješna prijava. Molimo provjerite unesene podatke.</asp:Label>
+        <img src="~\Slike\pozor.png" alt="prekratka lozinka" ID="imgPozorLozinka" class="imgPozorLozinka" runat="server" Style="visibility: hidden"/>
+        <img src="~\Slike\pozor.png" alt="prekratko korisničko ime" ID="imgPozorUsername" class="imgPozorUsername" runat="server" Style="visibility: hidden"/>
     </div>
 </asp:Content>

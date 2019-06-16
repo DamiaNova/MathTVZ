@@ -32,6 +32,7 @@ namespace MathTVZApp.Ekrani
                 if (SpremiRegistraciju())
                 {
                     InicijalizacijaForme();
+                    //pohrana podatak o korisniku u sesiju (klasa)
                     //redirekcija na početnu dobrodošli stranicu
                 }
             }
@@ -46,12 +47,14 @@ namespace MathTVZApp.Ekrani
             if (txbLozinkaZaPrijavu.Text.Length < 6)
             {
                 imgPozorLozinka.Attributes.Add("style", "visibility: visible");
+                lblPrekratkaLozinka.Attributes.Add("style", "visibility: visible");
                 txbLozinkaZaPrijavu.Attributes.Add("style", "border: 1px solid red");
                 lozinkaOK = false;
             }
             else
             {
                 imgPozorLozinka.Attributes.Add("style", "visibility: hidden");
+                lblPrekratkaLozinka.Attributes.Add("style", "visibility: hidden");
                 txbLozinkaZaPrijavu.Attributes.Add("style", "border: 1px solid rgb(211, 210, 216)");
                 lozinkaOK = true;
             }
@@ -59,12 +62,14 @@ namespace MathTVZApp.Ekrani
             if (txbUsername.Text.Length < 6)
             {
                 imgPozorUsername.Attributes.Add("style", "visibility: visible");
+                lblPrekratkoIme.Attributes.Add("style", "visibility: visible");
                 txbUsername.Attributes.Add("style", "border: 1px solid red");
                 usernameOK = false;
             }
             else
             {
                 imgPozorUsername.Attributes.Add("style", "visibility: hidden");
+                lblPrekratkoIme.Attributes.Add("style", "visibility: hidden");
                 txbUsername.Attributes.Add("style", "border: 1px solid rgb(211, 210, 216)");
                 usernameOK = true;
             }
@@ -81,7 +86,6 @@ namespace MathTVZApp.Ekrani
                 "Server=localhost;" +
                 "Database=MathTVZ;" +
                 "Trusted_Connection=True;";
-
             try
             {
                 con.Open();
@@ -89,11 +93,12 @@ namespace MathTVZApp.Ekrani
                 cmd.Parameters.AddWithValue("KorisnickoIme", txbUsername.Text);
                 cmd.Parameters.AddWithValue("Lozinka", txbLozinkaZaPrijavu.Text);
                 cmd.ExecuteNonQuery();
+                con.Close();
                 spremljeno = true;
             }
             catch (Exception)
             {
-                //logiranje
+                //error poruka i logiranje
             }
 
             return spremljeno;
@@ -107,6 +112,8 @@ namespace MathTVZApp.Ekrani
             txbUsername.Attributes.Add("border", "1px solid rgb(211, 210, 216)");
             imgPozorLozinka.Attributes.Add("style", "visibility: hidden");
             imgPozorUsername.Attributes.Add("style", "visibility: hidden");
+            lblPrekratkaLozinka.Attributes.Add("style", "visibility: hidden");
+            lblPrekratkoIme.Attributes.Add("style", "visibility: hidden");
         }
     }
 }

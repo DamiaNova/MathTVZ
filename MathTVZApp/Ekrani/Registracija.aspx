@@ -13,5 +13,7 @@
         <asp:Button ID="btnRegistracija" runat="server" CssClass="btnRegiPrijava" Text="Registriraj se" OnClick="btnRegistracija_Click"/>
         <img src="~\Slike\pozor.png" alt="prekratka lozinka" ID="imgPozorLozinka" class="imgPozorLozinka" runat="server" Style="visibility: hidden"/>
         <img src="~\Slike\pozor.png" alt="prekratko korisničko ime" ID="imgPozorUsername" class="imgPozorUsername" runat="server" Style="visibility: hidden"/>
+        <asp:Label runat="server" ID="lblPrekratkoIme" CssClass="lblPrekratkoIme" Style="visibility: hidden">Slabo</asp:Label>
+        <asp:Label runat="server" ID="lblPrekratkaLozinka" CssClass="lblPrekratkaLozinka" Style="visibility: hidden">Slabo</asp:Label>
     </div>
 </asp:Content>

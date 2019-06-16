@@ -46,6 +46,30 @@
     margin-top: -283px;
     margin-left: 567px;
 }
+.lblNeuspjesnaPrijava {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin-top: -380px;
+    margin-left: 567px;
+}
+.lblPrekratkoIme {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin-top: -322px;
+    margin-left: 900px;
+}
+.lblPrekratkaLozinka {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin-top: -258px;
+    margin-left: 900px;
+}
 .txbKorisnickoIme {
     display: block;
     width: 395px;

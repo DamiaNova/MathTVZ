@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace MathTVZApp.Ekrani
 {
@@ -13,9 +15,54 @@ namespace MathTVZApp.Ekrani
         {
             if (IsPostBack)
             {
-                txbKorImeEmail.Text = string.Empty;
-                txbLozinkaZaPrijavu.Text = string.Empty;
+                //DoNothing();
             }
+        }
+
+        //Eventi:
+        protected void btnPrijava_Click(object sender, EventArgs e)
+        {
+            if (!ProvjeraUnesenihPodataka())
+            {
+                PostaviFormuZaNeuspjesno();
+            }
+            else
+            {
+                //redirekcija na početnu dobrodošli stranicu
+            }
+        }
+
+        //Metode
+        public bool ProvjeraUnesenihPodataka()
+        {
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["mycon"].ToString());
+            var uspjeh = false;
+            try
+            {
+                con.Open();
+                var qry = "SELECT * FROM korisnici WHERE korisnicko_ime=@KorisnickoIme AND lozinka=@Lozinka;";
+                SqlCommand cmd = new SqlCommand(qry, con);
+                cmd.Parameters.AddWithValue("@KorisnickoIme", txbKorImeEmail.Text);
+                cmd.Parameters.AddWithValue("@Lozinka", txbLozinkaZaPrijavu.Text);
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read()) { uspjeh = true; }
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                //error poruka, logiranje
+            }
+
+            return uspjeh;
+        }
+
+        private void PostaviFormuZaNeuspjesno()
+        {
+            imgPozorLozinka.Attributes.Add("style", "visibility: visible");
+            imgPozorUsername.Attributes.Add("style", "visibility: visible");
+            NeuspjesnaPrijava.Attributes.Add("style", "visibility: visible");
+            var lozinka = txbLozinkaZaPrijavu.Text;
+            txbLozinkaZaPrijavu.Attributes.Add("value", lozinka);
         }
     }
 }
