@@ -22,6 +22,15 @@ namespace MathTVZApp {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
         
         /// <summary>
+        /// BodyForm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm BodyForm;
+        
+        /// <summary>
         /// logo control.
         /// </summary>
         /// <remarks>
@@ -31,13 +40,22 @@ namespace MathTVZApp {
         protected global::System.Web.UI.HtmlControls.HtmlImage logo;
         
         /// <summary>
-        /// BodyForm control.
+        /// lnkPrijavaTrening control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm BodyForm;
+        protected global::System.Web.UI.WebControls.HyperLink lnkPrijavaTrening;
+        
+        /// <summary>
+        /// lnkRegistracijaProfil control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink lnkRegistracijaProfil;
         
         /// <summary>
         /// imgNaslovna control.

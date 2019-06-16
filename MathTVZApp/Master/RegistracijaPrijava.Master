@@ -43,7 +43,7 @@
         </div>
         <div class="elNavigacije">
             <span class="wrapperZvjezdice">
-                <a href="Prijava">Prijava</a>
+                <asp:HyperLink ID="lnkPrijavaTrening" runat="server" Text="Prijava" CssClass="lnkNavigacije" NavigateUrl="#"></asp:HyperLink>
             </span>
         </div>
         <div class="zvjezdica">
@@ -53,7 +53,7 @@
         </div>
         <div class="elNavigacije">
             <span class="wrapperZvjezdice">
-                <a href="Registracija">Registracija</a>
+                <asp:HyperLink ID="lnkRegistracijaProfil" runat="server" Text="Registracija" CssClass="lnkNavigacije" NavigateUrl="#"></asp:HyperLink>
             </span>
         </div>
     </header>

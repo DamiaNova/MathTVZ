@@ -11,6 +11,7 @@ namespace MathTVZApp.Klase
         public static UlogiraniKorisnik StvoriKorisnika(string korisnickoIme, string lozinka)
         {
             var korisnik = new UlogiraniKorisnik(korisnickoIme, lozinka);
+            System.Web.HttpContext.Current.Session["UlogiraniKorisnik"] = korisnik; //spremanje objekta korisnika u sesiju
             return korisnik;
         }
     }

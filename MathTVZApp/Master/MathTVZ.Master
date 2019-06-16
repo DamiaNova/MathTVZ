@@ -10,54 +10,54 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <header>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <a href="/">Što je MathTVZ?</a>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                 <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <a href="#">Lekcije</a>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <a href="Prijava">Prijava</a>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <a href="Registracija">Registracija</a>
-            </span>
-        </div>
-    </header>
     <form id="BodyForm" runat="server">
+        <header>
+            <div class="elNavigacije">
+                <span class="wrapperZvjezdice">
+                    <a href="/">Što je MathTVZ?</a>
+                </span>
+            </div>
+            <div class="zvjezdica">
+                <span class="wrapperZvjezdice">
+                    <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+                </span>
+            </div>
+            <div class="elNavigacije">
+                <span class="wrapperZvjezdice">
+                    <a href="#">Lekcije</a>
+                </span>
+            </div>
+            <div class="zvjezdica">
+                <span class="wrapperZvjezdice">
+                    <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+                </span>
+            </div>
+            <div class="elNavigacije">
+                <span class="wrapperZvjezdice">
+                    <img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>
+                </span>
+            </div>
+            <div class="zvjezdica">
+                <span class="wrapperZvjezdice">
+                    <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+                </span>
+            </div>
+            <div class="elNavigacije">
+                <span class="wrapperZvjezdice">
+                    <asp:HyperLink ID="lnkPrijavaTrening" runat="server" Text="Prijava" CssClass="lnkNavigacije" NavigateUrl="#"></asp:HyperLink>
+                </span>
+            </div>
+            <div class="zvjezdica">
+                <span class="wrapperZvjezdice">
+                    <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
+                </span>
+            </div>
+            <div class="elNavigacije">
+                <span class="wrapperZvjezdice">
+                    <asp:HyperLink ID="lnkRegistracijaProfil" runat="server" Text="Registracija" CssClass="lnkNavigacije" NavigateUrl="#"></asp:HyperLink>
+                </span>
+            </div>
+        </header>
         <div>
             <img src="~/Slike/MathTvz.png" alt="naslovna slika" runat="server" id="imgNaslovna"/>
             <asp:ContentPlaceHolder ID="BodyContent" runat="server">

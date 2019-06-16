@@ -47,8 +47,21 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-img{
-    width:100%;
+.lnkNavigacije {
+    color: #ede7fd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.8;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 100%;
     height: 100%;
 }
 #copyright {
