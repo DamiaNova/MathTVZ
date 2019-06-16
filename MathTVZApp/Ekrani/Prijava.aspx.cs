@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
+using MathTVZApp.Klase;
 
 namespace MathTVZApp.Ekrani
 {
@@ -28,6 +29,7 @@ namespace MathTVZApp.Ekrani
             }
             else
             {
+                KorisnikFactory.StvoriKorisnika(txbKorImeEmail.Text, txbLozinkaZaPrijavu.Text);
                 //redirekcija na početnu dobrodošli stranicu
             }
         }

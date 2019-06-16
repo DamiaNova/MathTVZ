@@ -54,6 +54,14 @@
     margin-top: -380px;
     margin-left: 567px;
 }
+.lblZauzetoIme {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin-top: -380px;
+    margin-left: 567px;
+}
 .lblPrekratkoIme {
     position: absolute;
     font-size: 14px;

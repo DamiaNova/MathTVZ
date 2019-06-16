@@ -15,5 +15,6 @@
         <img src="~\Slike\pozor.png" alt="prekratko korisničko ime" ID="imgPozorUsername" class="imgPozorUsername" runat="server" Style="visibility: hidden"/>
         <asp:Label runat="server" ID="lblPrekratkoIme" CssClass="lblPrekratkoIme" Style="visibility: hidden">Slabo</asp:Label>
         <asp:Label runat="server" ID="lblPrekratkaLozinka" CssClass="lblPrekratkaLozinka" Style="visibility: hidden">Slabo</asp:Label>
+        <asp:Label runat="server" ID="lblZauzetoIme" CssClass="lblZauzetoIme" Style="visibility: hidden">Korisničko ime je već zauzeto.</asp:Label>
     </div>
 </asp:Content>

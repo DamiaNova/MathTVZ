@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Configuration;
+using MathTVZApp.Klase;
 
 namespace MathTVZApp.Ekrani
 {
@@ -31,14 +33,14 @@ namespace MathTVZApp.Ekrani
             {
                 if (SpremiRegistraciju())
                 {
+                    KorisnikFactory.StvoriKorisnika(txbUsername.Text, txbLozinkaZaPrijavu.Text);
                     InicijalizacijaForme();
-                    //pohrana podatak o korisniku u sesiju (klasa)
                     //redirekcija na početnu dobrodošli stranicu
                 }
             }
         }
 
-        //Metode:
+        #region Metode
         public bool ProvjeraIspravnostiUnosa()
         {
             bool lozinkaOK;
@@ -66,16 +68,61 @@ namespace MathTVZApp.Ekrani
                 txbUsername.Attributes.Add("style", "border: 1px solid red");
                 usernameOK = false;
             }
+            else if (!ProvjeraZauzetostiImena())
+            {
+                imgPozorUsername.Attributes.Add("style", "visibility: visible");
+                lblZauzetoIme.Attributes.Add("style", "visibility: visible");
+                txbUsername.Attributes.Add("style", "border: 1px solid red");
+                usernameOK = false;
+            }
             else
             {
                 imgPozorUsername.Attributes.Add("style", "visibility: hidden");
                 lblPrekratkoIme.Attributes.Add("style", "visibility: hidden");
+                lblZauzetoIme.Attributes.Add("style", "visibility: hidden");
                 txbUsername.Attributes.Add("style", "border: 1px solid rgb(211, 210, 216)");
                 usernameOK = true;
             }
 
             var OK = lozinkaOK && usernameOK;
             return OK;
+        }
+
+        public void InicijalizacijaForme()
+        {
+            txbUsername.Text = string.Empty;
+            txbLozinkaZaPrijavu.Text = string.Empty;
+            txbLozinkaZaPrijavu.Attributes.Add("border", "1px solid rgb(211, 210, 216)");
+            txbUsername.Attributes.Add("border", "1px solid rgb(211, 210, 216)");
+            imgPozorLozinka.Attributes.Add("style", "visibility: hidden");
+            imgPozorUsername.Attributes.Add("style", "visibility: hidden");
+            lblPrekratkaLozinka.Attributes.Add("style", "visibility: hidden");
+            lblPrekratkoIme.Attributes.Add("style", "visibility: hidden");
+            lblZauzetoIme.Attributes.Add("style", "visibility: hidden");
+        }
+        #endregion Metode
+
+        #region DB metode
+        public bool ProvjeraZauzetostiImena()
+        {
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["mycon"].ToString());
+            bool usernameOK = true;
+            try
+            {
+                con.Open();
+                var qry = "SELECT * FROM korisnici WHERE korisnicko_ime=@KorisnickoIme;";
+                SqlCommand cmd = new SqlCommand(qry, con);
+                cmd.Parameters.AddWithValue("@KorisnickoIme", txbUsername.Text);
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read()) { usernameOK = false; }
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                //error poruka, logiranje
+            }
+
+            return usernameOK;
         }
 
         public bool SpremiRegistraciju()
@@ -103,17 +150,6 @@ namespace MathTVZApp.Ekrani
 
             return spremljeno;
         }
-
-        public void InicijalizacijaForme()
-        {
-            txbUsername.Text = string.Empty;
-            txbLozinkaZaPrijavu.Text = string.Empty;
-            txbLozinkaZaPrijavu.Attributes.Add("border", "1px solid rgb(211, 210, 216)");
-            txbUsername.Attributes.Add("border", "1px solid rgb(211, 210, 216)");
-            imgPozorLozinka.Attributes.Add("style", "visibility: hidden");
-            imgPozorUsername.Attributes.Add("style", "visibility: hidden");
-            lblPrekratkaLozinka.Attributes.Add("style", "visibility: hidden");
-            lblPrekratkoIme.Attributes.Add("style", "visibility: hidden");
-        }
+        #endregion DB metode
     }
 }
