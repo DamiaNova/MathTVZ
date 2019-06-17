@@ -19,8 +19,8 @@
             </p>
         </div>
         <div id="divRegiPrijava">
-            <h1 id="RegistracijaPrijava">
-                Želiš nam se pridružiti?
+            <h1 id="RegistracijaTrening">
+                <asp:Label runat="server" ID="lblRegistracijaTrening"></asp:Label>
             </h1>
             <asp:Button ID="btnRegistracija" Text="Registracija" runat="server" CssClass="btnRegistracija" PostBackUrl="../Registracija"/>
             <img src="~/Slike/brojPetCopy.png" runat="server" alt="broj 5 među oblacima" class="imgBrojPet" />
