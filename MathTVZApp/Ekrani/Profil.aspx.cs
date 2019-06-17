@@ -22,6 +22,12 @@ namespace MathTVZApp.Ekrani
             }
         }
 
+        //Eventi:
+        protected void btnOdjava_Click(object sender, EventArgs e)
+        {
+            //odjavi me
+        }
+
         private bool isKorisnikUlogiran()
         {
             var OK = true;

@@ -59,18 +59,22 @@
     <form id="BodyFormProfil" runat="server">
         <div id="omotacProfil">
             <img src="~/Slike/Profil.png" alt="pozadinska slika" runat="server" id="imgPozadinskaSlikaProfil"/>
-            <div id="omotacBodyProfil">
-                <asp:Button ID="btnOdjava" runat="server" CssClass="btnOdjava" Text="Odjava"/>
-                <img src="~\Slike\Diamond.png" alt="dijamantna medalja" id="imgDiamond" class="imgMedalja" runat="server" style="visibility: hidden"/>
+            <div>
+                <asp:Button ID="btnOdjava" runat="server" CssClass="btnOdjava" Text="Odjava" OnClick="btnOdjava_Click"/>
+                <img src="~\Slike\Diamond.png" alt="dijamantna medalja" id="imgDiamond" class="imgMedalja" runat="server"/>
                 <img src="~\Slike\Bronze.png" alt="brončana medalja" id="imgBronze" class="imgMedalja" runat="server" style="visibility: hidden"/>
                 <img src="~\Slike\Silver.png" alt="srebrna medalja" id="imgSilver" class="imgMedalja" runat="server" style="visibility: hidden"/>
                 <img src="~\Slike\Gold.png" alt="zlatna medalja" id="imgGold" class="imgMedalja" runat="server" style="visibility: hidden"/>
                 <p id="pMojiBodovi">Moji bodovi:</p>
-                <asp:Label runat="server" Text="" ID="lblBrojBodova"></asp:Label>
+                <p id="pBodoviZaBroncu">0-50</p>
+                <p id="pBodoviZaSrebro">51-100</p>
+                <p id="pBodoviZaZlato">101-150</p>
+                <p id="pBodoviZaDiamond">150+</p>
+                <%--<asp:Label runat="server" Text="" ID="lblBrojBodova"></asp:Label>--%>
             </div>
         </div>
     </form>
-    <footer id="footerRegiPrijava">
+    <footer id="footerProfil">
         <p id="copyright">Copyright © Mia Blažeković</p>
     </footer>
 </body>

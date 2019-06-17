@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
-#omotacBodyProfil {
+#omotacProfil {
     position: absolute;
+    overflow: hidden;
 }
 .imgMedalja {
     position: absolute;
+    z-index: 2;
+    overflow:hidden;
     height: 300px;
     width: 300px;
     margin-top: -680px;
@@ -14,6 +17,7 @@
 }
 #pMojiBodovi {
     position: absolute;
+    overflow: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 300%;
@@ -21,17 +25,66 @@
     margin-top: -410px;
     margin-bottom: 500px;
     margin-left: 570px;
-    /*color: rgb(235, 184, 224);*/
     color: rgb(165, 142, 218);
+}
+#pBodoviZaBroncu {
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    width: 300px;
+    margin-top: -327px;
+    margin-left: 640px;
+    color: rgb(121, 118, 203);
+}
+#pBodoviZaSrebro {
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    width: 300px;
+    margin-top: -327px;
+    margin-left: 798px;
+    color: rgb(121, 118, 203);
+}
+#pBodoviZaZlato {
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 140%;
+    width: 300px;
+    margin-top: -237px;
+    margin-left: 640px;
+    color: rgb(121, 118, 203);
+}
+#pBodoviZaDiamond {
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    width: 300px;
+    margin-top: -237px;
+    margin-left: 798px;
+    color: rgb(121, 118, 203);
+}
+#footerProfil {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    margin-top: -40px;
 }
 .btnOdjava {
     padding: 0;
-    display: block;
+    overflow: hidden;
     width: 160px;
     height: 50px;
     position: absolute;
     margin-top: -160px;
-    margin-left: 695px;
+    margin-left: 685px;
     border-radius: 20px;
     border: none;
     background-color: rgb(236, 113, 129);
