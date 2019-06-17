@@ -25,7 +25,8 @@ namespace MathTVZApp.Ekrani
         //Eventi:
         protected void btnOdjava_Click(object sender, EventArgs e)
         {
-            //odjavi me
+            System.Web.HttpContext.Current.Session["UlogiraniKorisnik"] = null;
+            Response.Redirect("~\\");
         }
 
         private bool isKorisnikUlogiran()
