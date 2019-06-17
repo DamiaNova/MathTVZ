@@ -30,7 +30,7 @@ namespace MathTVZApp.Ekrani
             else
             {
                 KorisnikFactory.StvoriKorisnika(txbKorImeEmail.Text, txbLozinkaZaPrijavu.Text);
-                //redirekcija na početnu dobrodošli stranicu
+                Response.Redirect("~\\Profil");
             }
         }
 

@@ -34,8 +34,7 @@ namespace MathTVZApp.Ekrani
                 if (SpremiRegistraciju())
                 {
                     KorisnikFactory.StvoriKorisnika(txbUsername.Text, txbLozinkaZaPrijavu.Text);
-                    InicijalizacijaForme();
-                    //redirekcija na početnu dobrodošli stranicu
+                    Response.Redirect("~\\Profil");
                 }
             }
         }

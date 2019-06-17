@@ -21,6 +21,7 @@ namespace MathTVZApp
             routes.MapPageRoute("PocetnaStranica","","~/Ekrani/Index.aspx");
             routes.MapPageRoute("Registracija", "Registracija", "~/Ekrani/Registracija.aspx");
             routes.MapPageRoute("Prijava", "Prijava", "~/Ekrani/Prijava.aspx");
+            routes.MapPageRoute("Profil", "Profil", "~/Ekrani/Profil.aspx");
             routes.MapPageRoute("404PageNotFound", "404", "~/Ekrani/404PageNotFound.aspx");
         }
     }
