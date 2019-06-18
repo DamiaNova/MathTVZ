@@ -7,36 +7,36 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MathTVZApp.Ekrani {
+namespace MathTVZApp.Controls {
     
     
-    public partial class Trening {
+    public partial class Header {
         
         /// <summary>
-        /// ucHeader control.
+        /// imgLogo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MathTVZApp.Controls.Header ucHeader;
+        protected global::System.Web.UI.WebControls.Image imgLogo;
         
         /// <summary>
-        /// BodyFormTrening control.
+        /// lnkPrijavaTrening control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm BodyFormTrening;
+        protected global::System.Web.UI.WebControls.HyperLink lnkPrijavaTrening;
         
         /// <summary>
-        /// imgPozadinskaSlikaTrening control.
+        /// lnkRegistracijaProfil control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage imgPozadinskaSlikaTrening;
+        protected global::System.Web.UI.WebControls.HyperLink lnkRegistracijaProfil;
     }
 }

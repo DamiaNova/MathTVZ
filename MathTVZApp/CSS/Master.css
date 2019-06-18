@@ -81,6 +81,16 @@ img {
     width: 24px;
     height: 24px;
 }
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    align-self: center;
+    width: 24px;
+    height: 24px;
+}
 .zvjezdica {
     position: relative;
     height: 100%;
