@@ -31,7 +31,10 @@ namespace MathTVZApp.Ekrani
             }
             else
             {
-                if (SpremiRegistraciju())
+                var db = new DBadmin();
+                var registracijaSaved = db.SpremiRegistraciju(txbUsername.Text, txbLozinkaZaPrijavu.Text);
+
+                if (registracijaSaved)
                 {
                     KorisnikFactory.SpremiKorisnikaSesija(txbUsername.Text, txbLozinkaZaPrijavu.Text);
                     Response.Redirect("~\\Profil");
@@ -44,6 +47,8 @@ namespace MathTVZApp.Ekrani
         {
             bool lozinkaOK;
             bool usernameOK;
+            var db = new DBadmin();
+            var korisnickoImeOK = db.ProvjeraZauzetostiImena(txbUsername.Text);
 
             if (txbLozinkaZaPrijavu.Text.Length < 6)
             {
@@ -67,7 +72,7 @@ namespace MathTVZApp.Ekrani
                 txbUsername.Attributes.Add("style", "border: 1px solid red");
                 usernameOK = false;
             }
-            else if (!ProvjeraZauzetostiImena())
+            else if (!korisnickoImeOK)
             {
                 imgPozorUsername.Attributes.Add("style", "visibility: visible");
                 lblZauzetoIme.Attributes.Add("style", "visibility: visible");
@@ -100,55 +105,5 @@ namespace MathTVZApp.Ekrani
             lblZauzetoIme.Attributes.Add("style", "visibility: hidden");
         }
         #endregion Metode
-
-        #region DB metode
-        public bool ProvjeraZauzetostiImena()
-        {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["mycon"].ToString());
-            bool usernameOK = true;
-            try
-            {
-                con.Open();
-                var qry = "SELECT * FROM korisnici WHERE korisnicko_ime=@KorisnickoIme;";
-                SqlCommand cmd = new SqlCommand(qry, con);
-                cmd.Parameters.AddWithValue("@KorisnickoIme", txbUsername.Text);
-                SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read()) { usernameOK = false; }
-                con.Close();
-            }
-            catch (Exception ex)
-            {
-                //error poruka, logiranje
-            }
-
-            return usernameOK;
-        }
-
-        public bool SpremiRegistraciju()
-        {
-            SqlConnection con = new SqlConnection();
-            var spremljeno = false;
-            con.ConnectionString =
-                "Server=localhost;" +
-                "Database=MathTVZ;" +
-                "Trusted_Connection=True;";
-            try
-            {
-                con.Open();
-                SqlCommand cmd = new SqlCommand("insert into korisnici values(@KorisnickoIme, @Lozinka)", con);
-                cmd.Parameters.AddWithValue("KorisnickoIme", txbUsername.Text);
-                cmd.Parameters.AddWithValue("Lozinka", txbLozinkaZaPrijavu.Text);
-                cmd.ExecuteNonQuery();
-                con.Close();
-                spremljeno = true;
-            }
-            catch (Exception)
-            {
-                //error poruka i logiranje
-            }
-
-            return spremljeno;
-        }
-        #endregion DB metode
     }
 }

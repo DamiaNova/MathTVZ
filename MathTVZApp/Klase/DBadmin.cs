@@ -14,5 +14,20 @@ namespace MathTVZApp.Klase
             base.ProvjeraPrijaveKorisnika();
             return base.OK;
         }
+
+        public bool ProvjeraZauzetostiImena(string username)
+        {
+            base.Username = username;
+            base.ProvjeraZauzetostiImena();
+            return base.OK;
+        }
+
+        public bool SpremiRegistraciju(string username, string lozinka)
+        {
+            base.Username = username;
+            base.Lozinka = lozinka;
+            base.SpremiRegistraciju();
+            return base.OK;
+        }
     }
 }
