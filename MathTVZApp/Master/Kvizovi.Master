@@ -16,7 +16,7 @@
     </header>
     <form id="BodyFormKvizovi" runat="server">
         <div id="omotacKvizovi">
-            <img src="~/Slike/Kvizovi.png" alt="naslovna slika" runat="server" id="imgNaslovnaKvizovi"/>
+            <img src="~/Slike/Derivacije.png" alt="naslovna slika" runat="server" id="imgNaslovnaKvizovi"/>
             <asp:ContentPlaceHolder ID="BodyContentKvizovi" runat="server">
             </asp:ContentPlaceHolder>
         </div>

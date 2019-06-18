@@ -1,0 +1,184 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+#omotacKvizovi {
+    position: absolute;
+    overflow: hidden;
+}
+#footerKvizoviPregled {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    margin-top: -40px;
+}
+#odabirKviza {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    width: 600px;
+    margin-top: -580px;
+    margin-left: 590px;
+    color: rgb(165, 142, 218);
+}
+.btnDerivacijeKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 205px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnLimesiKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 205px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnInverzFunkcijeKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 205px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnNulTočkeKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 630px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnProduktiKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 630px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnVektoriKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 630px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnSustaviKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 1030px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnMatriceKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 1030px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnKompleksniKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 1030px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnPovratak {
+    padding: 0;
+    overflow: hidden;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 670px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(165, 142, 218);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+}

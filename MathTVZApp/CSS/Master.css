@@ -32,8 +32,7 @@ footer {
 }
 #footerKvizovi {
     position: absolute;
-    bottom: 0;
-    margin-top: -40px;
+    bottom: -1600px;
 }
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -69,11 +69,14 @@
   <ItemGroup>
     <Content Include="Controls\Header.ascx" />
     <Content Include="CSS\Index.css" />
+    <Content Include="CSS\Kvizovi.css" />
     <Content Include="CSS\Profil.css" />
     <Content Include="CSS\RegistracijaPrijava.css" />
     <Content Include="CSS\Trening.css" />
     <Content Include="Ekrani\404PageNotFound.aspx" />
+    <Content Include="Ekrani\Derivacije.aspx" />
     <Content Include="Ekrani\Index.aspx" />
+    <Content Include="Ekrani\Kvizovi.aspx" />
     <Content Include="Ekrani\Prijava.aspx" />
     <Content Include="Ekrani\Profil.aspx" />
     <Content Include="Ekrani\Registracija.aspx" />
@@ -106,12 +109,26 @@
     <Compile Include="Ekrani\404PageNotFound.aspx.designer.cs">
       <DependentUpon>404PageNotFound.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ekrani\Derivacije.aspx.cs">
+      <DependentUpon>Derivacije.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\Derivacije.aspx.designer.cs">
+      <DependentUpon>Derivacije.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ekrani\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ekrani\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\Kvizovi.aspx.cs">
+      <DependentUpon>Kvizovi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\Kvizovi.aspx.designer.cs">
+      <DependentUpon>Kvizovi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ekrani\Prijava.aspx.cs">
       <DependentUpon>Prijava.aspx</DependentUpon>
