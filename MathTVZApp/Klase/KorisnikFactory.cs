@@ -10,7 +10,10 @@ namespace MathTVZApp.Klase
     {
         public static UlogiraniKorisnik SpremiKorisnikaSesija(string korisnickoIme, string lozinka)
         {
-            var korisnik = new UlogiraniKorisnik(korisnickoIme, lozinka);
+            var db = new DBadmin();
+            var id = db.GetKorisnikID(korisnickoIme); //dohvaćanje id-a korisnika
+
+            var korisnik = new UlogiraniKorisnik(korisnickoIme, lozinka, id);
             System.Web.HttpContext.Current.Session["UlogiraniKorisnik"] = korisnik; //spremanje objekta korisnika u sesiju
             return korisnik;
         }

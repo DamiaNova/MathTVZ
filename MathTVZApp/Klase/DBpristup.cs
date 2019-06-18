@@ -12,6 +12,7 @@ namespace MathTVZApp.Klase
         public string KorisnikId { get; set; }
         public string Username { get; set; }
         public string Lozinka { get; set; }
+        public string BrojBodova { get; set; }
         public bool OK { get; set; }
         private int _pocetniBodovi = 0;
 
@@ -114,6 +115,28 @@ namespace MathTVZApp.Klase
                     KorisnikId = reader["id"].ToString();
                 }
                 if (KorisnikId.Length != 0) { OK = true; }
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                //error poruka, logiranje
+            }
+        }
+
+        public void GetBrojBodova()
+        {
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["mycon"].ToString());
+            try
+            {
+                con.Open();
+                var qry = "SELECT UKUPNO FROM bodovi WHERE KOR_ID=@KorisnikId;";
+                SqlCommand cmd = new SqlCommand(qry, con);
+                cmd.Parameters.AddWithValue("@KorisnikId", KorisnikId);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    BrojBodova = reader["UKUPNO"].ToString();
+                }
                 con.Close();
             }
             catch (Exception ex)

@@ -37,8 +37,21 @@ namespace MathTVZApp.Klase
                     base.InsPocetniBodovi();
                 }
             }
-
             return base.OK;
+        }
+
+        public string GetKorisnikID(string username)
+        {
+            base.Username = username;
+            base.GetKorisnikID();
+            return base.KorisnikId;
+        }
+
+        public string GetBrojBodova(string id)
+        {
+            base.KorisnikId = id;
+            base.GetBrojBodova();
+            return base.BrojBodova;
         }
     }
 }

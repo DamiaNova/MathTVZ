@@ -71,6 +71,17 @@
     margin-left: 798px;
     color: rgb(121, 118, 203);
 }
+.lblBrBodova {
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 350%;
+    width: 300px;
+    margin-top: -417px;
+    margin-left: 850px;
+    color: rgb(121, 118, 203);
+}
 #footerProfil {
     position: absolute;
     overflow: hidden;

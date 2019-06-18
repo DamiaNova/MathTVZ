@@ -70,7 +70,7 @@
                 <p id="pBodoviZaSrebro">51-100</p>
                 <p id="pBodoviZaZlato">101-150</p>
                 <p id="pBodoviZaDiamond">150+</p>
-                <%--<asp:Label runat="server" Text="" ID="lblBrojBodova"></asp:Label>--%>
+                <asp:Label runat="server" ID="lblBrojBodova" CssClass="lblBrBodova"></asp:Label>
             </div>
         </div>
     </form>

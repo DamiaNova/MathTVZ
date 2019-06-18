@@ -9,16 +9,15 @@ namespace MathTVZApp.Klase
     {
         //svojstva:
         public string KorisnickoIme { get; set; }
-        public int Id { get; set; }
-
-        //članovi:
-        private string _lozinka;
+        public string KorisnikId { get; set; }
+        public string Lozinka { get; set; }
 
         //konstruktor:
-        public UlogiraniKorisnik(string korisnickoIme, string lozinka)
+        public UlogiraniKorisnik(string korisnickoIme, string lozinka, string id)
         {
-            korisnickoIme = KorisnickoIme;
-            lozinka = _lozinka;
+            KorisnickoIme = korisnickoIme;
+            Lozinka = lozinka;
+            KorisnikId = id;
         }
     }
 }

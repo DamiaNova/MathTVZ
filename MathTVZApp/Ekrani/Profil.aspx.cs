@@ -15,6 +15,7 @@ namespace MathTVZApp.Ekrani
             if (isKorisnikUlogiran())
             {
                 PostaviNavigacijuZaKorisnika();
+                PostaviBrojBodova();
             }
             else
             {
@@ -56,6 +57,16 @@ namespace MathTVZApp.Ekrani
             lnkPrijavaTrening.NavigateUrl = "~\\Prijava";
             lnkRegistracijaProfil.Text = "Registracija";
             lnkRegistracijaProfil.NavigateUrl = "~\\Registracija";
+        }
+
+        private void PostaviBrojBodova()
+        {
+            var korisnik = (UlogiraniKorisnik)Session["UlogiraniKorisnik"];
+            var db = new DBadmin();
+            var id = korisnik.KorisnikId;
+            var brBodova = db.GetBrojBodova(id);
+
+            lblBrojBodova.Text = brBodova;
         }
     }
 }
