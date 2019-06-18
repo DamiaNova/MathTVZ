@@ -70,11 +70,13 @@
     <Content Include="CSS\Index.css" />
     <Content Include="CSS\Profil.css" />
     <Content Include="CSS\RegistracijaPrijava.css" />
+    <Content Include="CSS\Trening.css" />
     <Content Include="Ekrani\404PageNotFound.aspx" />
     <Content Include="Ekrani\Index.aspx" />
     <Content Include="Ekrani\Prijava.aspx" />
     <Content Include="Ekrani\Profil.aspx" />
     <Content Include="Ekrani\Registracija.aspx" />
+    <Content Include="Ekrani\Trening.aspx" />
     <Content Include="Global.asax" />
     <Content Include="CSS\Master.css" />
     <Content Include="Slike\brojDva.png" />
@@ -123,6 +125,13 @@
     </Compile>
     <Compile Include="Ekrani\Registracija.aspx.designer.cs">
       <DependentUpon>Registracija.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\Trening.aspx.cs">
+      <DependentUpon>Trening.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\Trening.aspx.designer.cs">
+      <DependentUpon>Trening.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
