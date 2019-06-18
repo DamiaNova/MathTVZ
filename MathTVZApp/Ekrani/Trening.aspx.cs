@@ -13,5 +13,20 @@ namespace MathTVZApp.Ekrani
         protected void Page_Load(object sender, EventArgs e)
         {
         }
+
+        protected void btnKvizovi_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~\\Kvizovi");
+        }
+
+        protected void btnZadaci_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~\\Zadaci");
+        }
+
+        protected void btnPripreme_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~\\Pripreme");
+        }
     }
 }
