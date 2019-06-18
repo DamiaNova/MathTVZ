@@ -27,6 +27,17 @@ namespace MathTVZApp.Klase
             base.Username = username;
             base.Lozinka = lozinka;
             base.SpremiRegistraciju();
+
+            if (base.OK)
+            {
+                base.GetKorisnikID();
+
+                if (base.OK)
+                {
+                    base.InsPocetniBodovi();
+                }
+            }
+
             return base.OK;
         }
     }
