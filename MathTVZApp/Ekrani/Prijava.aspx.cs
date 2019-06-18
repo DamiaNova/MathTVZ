@@ -23,39 +23,18 @@ namespace MathTVZApp.Ekrani
         //Eventi:
         protected void btnPrijava_Click(object sender, EventArgs e)
         {
-            if (!ProvjeraUnesenihPodataka())
+            var db = new DBadmin();
+            var provjera = db.ProvjeraPrijave(txbKorImeEmail.Text, txbLozinkaZaPrijavu.Text);
+
+            if (!provjera)
             {
                 PostaviFormuZaNeuspjesno();
             }
             else
             {
-                KorisnikFactory.StvoriKorisnika(txbKorImeEmail.Text, txbLozinkaZaPrijavu.Text);
+                KorisnikFactory.SpremiKorisnikaSesija(txbKorImeEmail.Text, txbLozinkaZaPrijavu.Text);
                 Response.Redirect("~\\Profil");
             }
-        }
-
-        //Metode
-        public bool ProvjeraUnesenihPodataka()
-        {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["mycon"].ToString());
-            var uspjeh = false;
-            try
-            {
-                con.Open();
-                var qry = "SELECT * FROM korisnici WHERE korisnicko_ime=@KorisnickoIme AND lozinka=@Lozinka;";
-                SqlCommand cmd = new SqlCommand(qry, con);
-                cmd.Parameters.AddWithValue("@KorisnickoIme", txbKorImeEmail.Text);
-                cmd.Parameters.AddWithValue("@Lozinka", txbLozinkaZaPrijavu.Text);
-                SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read()) { uspjeh = true; }
-                con.Close();
-            }
-            catch (Exception ex)
-            {
-                //error poruka, logiranje
-            }
-
-            return uspjeh;
         }
 
         private void PostaviFormuZaNeuspjesno()

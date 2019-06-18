@@ -127,6 +127,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Klase\DBadmin.cs" />
+    <Compile Include="Klase\DBpristup.cs" />
     <Compile Include="Klase\KorisnikFactory.cs" />
     <Compile Include="Klase\UlogiraniKorisnik.cs" />
     <Compile Include="Master\MathTVZ.Master.cs">

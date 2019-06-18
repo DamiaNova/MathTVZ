@@ -33,7 +33,7 @@ namespace MathTVZApp.Ekrani
             {
                 if (SpremiRegistraciju())
                 {
-                    KorisnikFactory.StvoriKorisnika(txbUsername.Text, txbLozinkaZaPrijavu.Text);
+                    KorisnikFactory.SpremiKorisnikaSesija(txbUsername.Text, txbLozinkaZaPrijavu.Text);
                     Response.Redirect("~\\Profil");
                 }
             }

@@ -8,7 +8,7 @@ namespace MathTVZApp.Klase
 {
     public class KorisnikFactory
     {
-        public static UlogiraniKorisnik StvoriKorisnika(string korisnickoIme, string lozinka)
+        public static UlogiraniKorisnik SpremiKorisnikaSesija(string korisnickoIme, string lozinka)
         {
             var korisnik = new UlogiraniKorisnik(korisnickoIme, lozinka);
             System.Web.HttpContext.Current.Session["UlogiraniKorisnik"] = korisnik; //spremanje objekta korisnika u sesiju
