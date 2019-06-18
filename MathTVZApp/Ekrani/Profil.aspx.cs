@@ -16,13 +16,8 @@ namespace MathTVZApp.Ekrani
         {
             if (isKorisnikUlogiran())
             {
-                PostaviNavigacijuZaKorisnika();
                 PostaviBrojBodova();
                 PostaviOdgovarajućuMedalju();
-            }
-            else
-            {
-                PostaviNavigacijuZaGosta();
             }
         }
 
@@ -33,6 +28,7 @@ namespace MathTVZApp.Ekrani
             Response.Redirect("~\\");
         }
 
+        //Metode:
         private bool isKorisnikUlogiran()
         {
             var OK = true;
@@ -44,22 +40,6 @@ namespace MathTVZApp.Ekrani
             }
 
             return OK;
-        }
-
-        private void PostaviNavigacijuZaKorisnika()
-        {
-            lnkPrijavaTrening.Text = "Trening";
-            lnkPrijavaTrening.NavigateUrl = "~\\Trening";
-            lnkRegistracijaProfil.Text = "Moj profil";
-            lnkRegistracijaProfil.NavigateUrl = "~\\Profil";
-        }
-
-        private void PostaviNavigacijuZaGosta()
-        {
-            lnkPrijavaTrening.Text = "Prijava";
-            lnkPrijavaTrening.NavigateUrl = "~\\Prijava";
-            lnkRegistracijaProfil.Text = "Registracija";
-            lnkRegistracijaProfil.NavigateUrl = "~\\Registracija";
         }
 
         private void PostaviBrojBodova()

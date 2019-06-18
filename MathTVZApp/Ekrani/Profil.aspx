@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Profil.aspx.cs" Inherits="MathTVZApp.Ekrani.Profil" %>
+<%@ Register TagPrefix="uc" TagName="ucHeader" Src="~/Controls/Header.ascx" %>
 
 <!DOCTYPE html>
 
@@ -10,51 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <a href="/">Što je MathTVZ?</a>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                 <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <a href="#">Lekcije</a>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/tvzLogo.png" id="logo" runat="server" alt="tvz logo"/>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <asp:HyperLink ID="lnkPrijavaTrening" runat="server" Text="Prijava" CssClass="lnkNavigacije" NavigateUrl="#"></asp:HyperLink>
-            </span>
-        </div>
-        <div class="zvjezdica">
-            <span class="wrapperZvjezdice">
-                <img src="~/Slike/zvjezdica.png" class="imgZvjezdica" runat="server" alt="zvjezdica" />
-            </span>
-        </div>
-        <div class="elNavigacije">
-            <span class="wrapperZvjezdice">
-                <asp:HyperLink ID="lnkRegistracijaProfil" runat="server" Text="Registracija" CssClass="lnkNavigacije" NavigateUrl="#"></asp:HyperLink>
-            </span>
-        </div>
+        <uc:ucHeader ID="ucHeader" runat="server" />
     </header>
     <form id="BodyFormProfil" runat="server">
         <div id="omotacProfil">
