@@ -13,8 +13,8 @@
 <body>
     <form id="BodyForm" runat="server">
         <header>
-        <uc:ucHeader ID="ucHeader" runat="server" />
-    </header>
+            <uc:ucHeader ID="ucHeader" runat="server" />
+        </header>
         <div>
             <img src="~/Slike/MathTvz.png" alt="naslovna slika" runat="server" id="imgNaslovna"/>
             <asp:ContentPlaceHolder ID="BodyContent" runat="server">

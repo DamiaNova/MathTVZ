@@ -148,6 +148,13 @@
     <Compile Include="Klase\DBpristup.cs" />
     <Compile Include="Klase\KorisnikFactory.cs" />
     <Compile Include="Klase\UlogiraniKorisnik.cs" />
+    <Compile Include="Master\Kvizovi.Master.cs">
+      <DependentUpon>Kvizovi.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Kvizovi.Master.designer.cs">
+      <DependentUpon>Kvizovi.Master</DependentUpon>
+    </Compile>
     <Compile Include="Master\MathTVZ.Master.cs">
       <DependentUpon>MathTVZ.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -167,6 +174,7 @@
   <ItemGroup>
     <Content Include="Master\MathTVZ.Master" />
     <Content Include="Master\RegistracijaPrijava.Master" />
+    <Content Include="Master\Kvizovi.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

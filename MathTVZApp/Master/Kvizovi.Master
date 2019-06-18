@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kvizovi.master.cs" Inherits="MathTVZApp.Master.Kvizovi" %>
+<%@ Register TagPrefix="uc" TagName="ucHeader" Src="~/Controls/Header.ascx" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>KvizoviMaster</title>
+    <link href="~/CSS/Master.css" rel="stylesheet" type="text/css" runat="server"/>
+    <asp:ContentPlaceHolder ID="HeadContentKvizovi" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <uc:ucHeader ID="ucHeader" runat="server" />
+    </header>
+    <form id="BodyFormKvizovi" runat="server">
+        <div id="omotacKvizovi">
+            <img src="~/Slike/Kvizovi.png" alt="naslovna slika" runat="server" id="imgNaslovnaKvizovi"/>
+            <asp:ContentPlaceHolder ID="BodyContentKvizovi" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer id="footerKvizovi">
+        <p id="copyright">Copyright © Mia Blažeković</p>
+    </footer>
+</body>
+</html>
