@@ -12,3 +12,81 @@
     position: absolute;
     overflow: hidden;
 }
+#naslovKvizovi {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    width: 300px;
+    margin-top: -580px;
+    margin-left: 240px;
+    color: rgb(165, 142, 218);
+}
+#naslovZadaci {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    width: 300px;
+    margin-top: -580px;
+    margin-left: 690px;
+    color: rgb(165, 142, 218);
+}
+#naslovPripreme {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    width: 300px;
+    margin-top: -580px;
+    margin-left: 1100px;
+    color: rgb(165, 142, 218);
+}
+.btnZadaci {
+    padding: 0;
+    overflow: hidden;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 685px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnKvizovi {
+    padding: 0;
+    overflow: hidden;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 245px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.btnPripreme {
+    padding: 0;
+    overflow: hidden;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1130px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
