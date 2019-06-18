@@ -31,31 +31,13 @@ namespace MathTVZApp {
         protected global::System.Web.UI.HtmlControls.HtmlForm BodyForm;
         
         /// <summary>
-        /// logo control.
+        /// ucHeader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage logo;
-        
-        /// <summary>
-        /// lnkPrijavaTrening control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnkPrijavaTrening;
-        
-        /// <summary>
-        /// lnkRegistracijaProfil control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnkRegistracijaProfil;
+        protected global::MathTVZApp.Controls.Header ucHeader;
         
         /// <summary>
         /// imgNaslovna control.
