@@ -61,7 +61,7 @@
             <img src="~/Slike/Profil.png" alt="pozadinska slika" runat="server" id="imgPozadinskaSlikaProfil"/>
             <div>
                 <asp:Button ID="btnOdjava" runat="server" CssClass="btnOdjava" Text="Odjava" OnClick="btnOdjava_Click"/>
-                <img src="~\Slike\Diamond.png" alt="dijamantna medalja" id="imgDiamond" class="imgMedalja" runat="server"/>
+                <img src="~\Slike\Diamond.png" alt="dijamantna medalja" id="imgDiamond" class="imgMedalja" runat="server" style="visibility: hidden"/>
                 <img src="~\Slike\Bronze.png" alt="brončana medalja" id="imgBronze" class="imgMedalja" runat="server" style="visibility: hidden"/>
                 <img src="~\Slike\Silver.png" alt="srebrna medalja" id="imgSilver" class="imgMedalja" runat="server" style="visibility: hidden"/>
                 <img src="~\Slike\Gold.png" alt="zlatna medalja" id="imgGold" class="imgMedalja" runat="server" style="visibility: hidden"/>

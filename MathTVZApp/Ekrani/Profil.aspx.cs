@@ -10,12 +10,15 @@ namespace MathTVZApp.Ekrani
 {
     public partial class Profil : System.Web.UI.Page
     {
+        public string UkupanBrojBodova { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (isKorisnikUlogiran())
             {
                 PostaviNavigacijuZaKorisnika();
                 PostaviBrojBodova();
+                PostaviOdgovarajućuMedalju();
             }
             else
             {
@@ -67,6 +70,17 @@ namespace MathTVZApp.Ekrani
             var brBodova = db.GetBrojBodova(id);
 
             lblBrojBodova.Text = brBodova;
+            ViewState["UkupanBrojBodova"] = brBodova;
+        }
+
+        private void PostaviOdgovarajućuMedalju()
+        {
+            var brBodova = Int32.Parse(ViewState["UkupanBrojBodova"].ToString());
+
+            if(brBodova <= 50) { imgBronze.Attributes.Add("style", "visibility: visible"); }
+            else if(brBodova > 50 && brBodova <= 100) { imgSilver.Attributes.Add("style", "visibility: visible"); }
+            else if (brBodova > 100 && brBodova <= 150) { imgGold.Attributes.Add("style", "visibility: visible"); }
+            else { imgDiamond.Attributes.Add("style", "visibility: visible"); }
         }
     }
 }
