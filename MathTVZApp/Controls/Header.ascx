@@ -12,7 +12,7 @@
 </div>
 <div class="elNavigacije">
     <span class="wrapperZvjezdice">
-        <a href="#">Lekcije</a>
+        <a href="/Lekcije">Lekcije</a>
     </span>
 </div>
 <div class="zvjezdica">

@@ -70,6 +70,7 @@
     <Content Include="Controls\Header.ascx" />
     <Content Include="CSS\Index.css" />
     <Content Include="CSS\Kvizovi.css" />
+    <Content Include="CSS\Lekcije.css" />
     <Content Include="CSS\Profil.css" />
     <Content Include="CSS\RegistracijaPrijava.css" />
     <Content Include="CSS\Trening.css" />
@@ -77,6 +78,7 @@
     <Content Include="Ekrani\Derivacije.aspx" />
     <Content Include="Ekrani\Index.aspx" />
     <Content Include="Ekrani\Kvizovi.aspx" />
+    <Content Include="Ekrani\Lekcije.aspx" />
     <Content Include="Ekrani\Prijava.aspx" />
     <Content Include="Ekrani\Profil.aspx" />
     <Content Include="Ekrani\Registracija.aspx" />
@@ -129,6 +131,13 @@
     </Compile>
     <Compile Include="Ekrani\Kvizovi.aspx.designer.cs">
       <DependentUpon>Kvizovi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\Lekcije.aspx.cs">
+      <DependentUpon>Lekcije.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\Lekcije.aspx.designer.cs">
+      <DependentUpon>Lekcije.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ekrani\Prijava.aspx.cs">
       <DependentUpon>Prijava.aspx</DependentUpon>

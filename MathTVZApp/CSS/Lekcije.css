@@ -1,0 +1,173 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+#omotacLekcije {
+    position: absolute;
+    overflow: hidden;
+}
+#naslovLekcije {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 500%;
+    width: 600px;
+    margin-top: -1030px;
+    margin-left: 180px;
+    color: rgb(063, 039, 147);
+}
+#zaMatematikaI {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 150%;
+    margin-top: -935px;
+    margin-left: 180px;
+    color: rgb(165, 142, 218);
+}
+#autori {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    margin-top: -870px;
+    margin-left: 180px;
+    color: black;
+}
+#kompleksniBrojevi {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: -800px;
+    margin-left: 180px;
+    overflow: hidden;
+    border: 5px solid purple;
+}
+#matrice {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: -800px;
+    margin-left: 580px;
+    overflow: hidden;
+    border: 5px solid purple;
+}
+#vektori {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: -800px;
+    margin-left: 980px;
+    overflow: hidden;
+    border: 5px solid purple;
+}
+#elementarneFunkcije {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: -460px;
+    margin-left: 180px;
+    overflow: hidden;
+    border: 5px solid purple;
+}
+#limes {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: -460px;
+    margin-left: 580px;
+    overflow: hidden;
+    border: 5px solid purple;
+}
+#derivacija {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: -460px;
+    margin-left: 980px;
+    overflow: hidden;
+    border: 5px solid purple;
+}
+.crta {
+    position: absolute;
+    height: 60px;
+    width: 350px;
+    background-color: white;
+    margin-top: 240px;
+}
+.nazivLekcije {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 150%;
+    color: rgb(063, 039, 147);
+}
+#imgLekcija1 {
+    height: 240px;
+    width: 350px;
+    position: absolute;
+}
+#imgLekcija1:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+#imgLekcija3 {
+    height: 240px;
+    width: 350px;
+    position: absolute;
+}
+#imgLekcija3:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+#imgLekcija4 {
+    height: 240px;
+    width: 350px;
+    position: absolute;
+}
+#imgLekcija4:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+#imgLekcija5 {
+    height: 240px;
+    width: 350px;
+    position: absolute;
+}
+#imgLekcija5:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+#imgLekcija6 {
+    height: 240px;
+    width: 350px;
+    position: absolute;
+}
+#imgLekcija6:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+#imgLekcija7 {
+    height: 240px;
+    width: 350px;
+    position: absolute;
+}
+#imgLekcija7:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+#footerLekcijePregled {
+    position: absolute;
+    overflow: hidden;
+    margin-bottom: -440px;
+}
+#lnkKompleksni{
+    margin-left: -88px;
+    width:176px;
+}
