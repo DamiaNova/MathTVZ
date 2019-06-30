@@ -162,12 +162,12 @@
     transform: scale(1.5);
     overflow: hidden;
 }
+#lnkKompleksni {
+    margin-left: -88px;
+    width: 176px;
+}
 #footerLekcijePregled {
     position: absolute;
     overflow: hidden;
     margin-bottom: -440px;
-}
-#lnkKompleksni{
-    margin-left: -88px;
-    width:176px;
 }

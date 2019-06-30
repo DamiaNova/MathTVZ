@@ -21,7 +21,7 @@
                 <h2 id="zaMatematikaI">za kolegij Matematika I</h2>
                 <p id="autori">Autori: Ivana Božić Dragun</p>
                     <div id="kompleksniBrojevi">
-                        <a href="KompleksniBrojevi" id="lnkKompleksni">
+                        <a href="/Lekcije/KompleksniBrojevi" id="lnkKompleksni">
                             <img src="~/Slike/NightSky6.png" alt="pozadinska slika" runat="server" id="imgLekcija7"/>
                         </a>
                         <div class="crta">

@@ -1,0 +1,29 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+#omotacKompleksni {
+    position: absolute;
+    overflow: hidden;
+}
+#naslovKompleksni {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 450%;
+    margin-top: -1010px;
+    margin-left: 180px;
+    color: rgb(063, 039, 147);
+}
+#imgNavigacijaKompleksni {
+    position: absolute;
+    margin-top: -925px;
+    margin-left: 175px;
+    height: 60px;
+    width: 300px;
+}
+#footerKompleksni {
+    position: absolute;
+    overflow: hidden;
+    margin-bottom: -440px;
+}

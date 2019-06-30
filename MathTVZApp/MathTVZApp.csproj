@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Controls\Header.ascx" />
     <Content Include="CSS\Index.css" />
+    <Content Include="CSS\KompleksniBrojevi.css" />
     <Content Include="CSS\Kvizovi.css" />
     <Content Include="CSS\Lekcije.css" />
     <Content Include="CSS\Profil.css" />
@@ -77,6 +78,7 @@
     <Content Include="Ekrani\404PageNotFound.aspx" />
     <Content Include="Ekrani\Derivacije.aspx" />
     <Content Include="Ekrani\Index.aspx" />
+    <Content Include="Ekrani\KompleksniBrojevi.aspx" />
     <Content Include="Ekrani\Kvizovi.aspx" />
     <Content Include="Ekrani\Lekcije.aspx" />
     <Content Include="Ekrani\Prijava.aspx" />
@@ -124,6 +126,13 @@
     </Compile>
     <Compile Include="Ekrani\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\KompleksniBrojevi.aspx.cs">
+      <DependentUpon>KompleksniBrojevi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\KompleksniBrojevi.aspx.designer.cs">
+      <DependentUpon>KompleksniBrojevi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ekrani\Kvizovi.aspx.cs">
       <DependentUpon>Kvizovi.aspx</DependentUpon>
