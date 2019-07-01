@@ -78,6 +78,22 @@
     margin-top: 25px;
     margin-left: 25px;
 }
+.drugaRecenica {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 230px;
+    margin-left: 25px;
+}
+.trecaRecenica {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 270px;
+    margin-left: 25px;
+}
 #prvoRjesenje {
     position: absolute;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -93,6 +109,101 @@
     font-size: 130%;
     margin-left: 25px;
     margin-top: 145px;
+}
+.txbPrviOdgovor {
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 75px;
+    box-shadow: black 3px 3px;
+}
+.txbDrugiOdgovor {
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 75px;
+    box-shadow: black 3px 3px;
+}
+.btnProvjeriPrvi {
+    padding: 0;
+    overflow: hidden;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 140px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    border: none;
+    background-color: rgb(165, 142, 218);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+.btnDalje {
+    padding: 0;
+    display: block;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 970px;
+    border: none;
+    box-shadow: black 3px 3px;
+    border-radius: 15px;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+}
+.btnProvjeriDrugi {
+    padding: 0;
+    overflow: hidden;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 140px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    border: none;
+    background-color: rgb(165, 142, 218);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+.imgPozorPrvi {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 85px;
+    margin-left: 250px;
+}
+.lblPrviOdg {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    margin-top: 85px;
+    margin-left: 285px;
+}
+.imgPozorDrugi {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 145px;
+    margin-left: 250px;
+}
+
+.lblDrugiOdg {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    margin-top: 145px;
+    margin-left: 285px;
 }
 #footerManjaCjelina {
     position: absolute;
