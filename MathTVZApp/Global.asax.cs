@@ -25,6 +25,7 @@ namespace MathTVZApp
             routes.MapPageRoute("Trening", "Trening", "~/Ekrani/Trening.aspx");
             routes.MapPageRoute("Lekcije", "Lekcije", "~/Ekrani/Lekcije.aspx");
             routes.MapPageRoute("KompleksniBrojevi", "Lekcije/KompleksniBrojevi", "~/Ekrani/KompleksniBrojevi.aspx");
+            routes.MapPageRoute("ManjaCjelina", "Lekcije/KompleksniBrojevi/ManjaCjelina", "~/Ekrani/ManjaCjelina.aspx");
             routes.MapPageRoute("Kvizovi", "Kvizovi", "~/Ekrani/Kvizovi.aspx");
             routes.MapPageRoute("Derivacije", "Kvizovi/Derivacije", "~/Ekrani/Derivacije.aspx");
             routes.MapPageRoute("404PageNotFound", "404", "~/Ekrani/404PageNotFound.aspx");

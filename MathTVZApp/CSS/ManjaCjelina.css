@@ -1,0 +1,101 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+#omotacManjaCjelina {
+    position: absolute;
+    overflow: hidden;
+}
+#naslovKompleksniBrojevi {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 450%;
+    margin-top: -713px;
+    margin-left: 180px;
+    color: rgb(063, 039, 147);
+}
+.imgNavigacija {
+    position: absolute;
+    margin-top: -629px;
+    margin-left: 175px;
+    height: 60px;
+    width: 600px;
+}
+.imgNavigacijaIspod {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 0px;
+    height: 35px;
+    width: 350px;
+}
+#lnkImagJedin {
+    position: absolute;
+    margin-top: -609px;
+    margin-left: 480px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    text-transform: none;
+    color: rgb(235, 184, 224);
+    z-index: 1;
+    width: 250px;
+}
+#lnkLekcije {
+    position: absolute;
+    margin-top: -609px;
+    margin-left: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    text-transform: capitalize;
+    color: rgb(235, 184, 224);
+    z-index: 1;
+    width: 90px;
+}
+#lnkKompleksni {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -609px;
+    margin-left: 305px;
+    font-size: 100%;
+    text-transform: none;
+    color: rgb(063, 039, 147);
+    width: 150px;
+    z-index: 2;
+}
+#glavniDio{
+    width: 1170px;
+    height: 480px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -530px;
+    background-color: rgb(070,044,149);
+}
+.prvaRecenica {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    font-size: 130%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#prvoRjesenje {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-left: 25px;
+    margin-top: 85px;
+}
+#drugoRjesenje {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-left: 25px;
+    margin-top: 145px;
+}
+#footerManjaCjelina {
+    position: absolute;
+    overflow: hidden;
+    margin-bottom: -150px;
+}

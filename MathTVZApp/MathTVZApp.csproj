@@ -67,11 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controls\DefinicijaImaginarneJedinice.ascx" />
     <Content Include="Controls\Header.ascx" />
+    <Content Include="Controls\ImaginarnaJedinicaJednadzba.ascx" />
     <Content Include="CSS\Index.css" />
     <Content Include="CSS\KompleksniBrojevi.css" />
     <Content Include="CSS\Kvizovi.css" />
     <Content Include="CSS\Lekcije.css" />
+    <Content Include="CSS\ManjaCjelina.css" />
     <Content Include="CSS\Profil.css" />
     <Content Include="CSS\RegistracijaPrijava.css" />
     <Content Include="CSS\Trening.css" />
@@ -81,6 +84,7 @@
     <Content Include="Ekrani\KompleksniBrojevi.aspx" />
     <Content Include="Ekrani\Kvizovi.aspx" />
     <Content Include="Ekrani\Lekcije.aspx" />
+    <Content Include="Ekrani\ManjaCjelina.aspx" />
     <Content Include="Ekrani\Prijava.aspx" />
     <Content Include="Ekrani\Profil.aspx" />
     <Content Include="Ekrani\Registracija.aspx" />
@@ -99,12 +103,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice.ascx.cs">
+      <DependentUpon>DefinicijaImaginarneJedinice.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice.ascx.designer.cs">
+      <DependentUpon>DefinicijaImaginarneJedinice.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\Header.ascx.cs">
       <DependentUpon>Header.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Controls\Header.ascx.designer.cs">
       <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImaginarnaJedinicaJednadzba.ascx.cs">
+      <DependentUpon>ImaginarnaJedinicaJednadzba.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ImaginarnaJedinicaJednadzba.ascx.designer.cs">
+      <DependentUpon>ImaginarnaJedinicaJednadzba.ascx</DependentUpon>
     </Compile>
     <Compile Include="Ekrani\404PageNotFound.aspx.cs">
       <DependentUpon>404PageNotFound.aspx</DependentUpon>
@@ -147,6 +165,13 @@
     </Compile>
     <Compile Include="Ekrani\Lekcije.aspx.designer.cs">
       <DependentUpon>Lekcije.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ekrani\ManjaCjelina.aspx.cs">
+      <DependentUpon>ManjaCjelina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ekrani\ManjaCjelina.aspx.designer.cs">
+      <DependentUpon>ManjaCjelina.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ekrani\Prijava.aspx.cs">
       <DependentUpon>Prijava.aspx</DependentUpon>
