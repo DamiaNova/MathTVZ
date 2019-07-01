@@ -9,7 +9,7 @@ namespace MathTVZApp.Controls
 {
     public partial class ImaginarnaJedinicaJednadzba : System.Web.UI.UserControl
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public void Page_Load(object sender, EventArgs e)
         {
 
         }
@@ -46,11 +46,6 @@ namespace MathTVZApp.Controls
             {
                 DrugiNijeOK();
             }
-        }
-
-        protected void btnDalje_Click(object sender, EventArgs e)
-        {
-            //redirektaj na novi ascx
         }
 
         private void PrviJeOK()

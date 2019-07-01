@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MathTVZApp.Controls
+namespace MathTVZApp.Controls.DefinicijaImaginarneJedinice
 {
-    public partial class DefinicijaImaginarneJedinice : System.Web.UI.UserControl
+    public partial class ImaginarnaJedinicaDefinicija : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {

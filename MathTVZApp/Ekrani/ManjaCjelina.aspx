@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ManjaCjelina.aspx.cs" Inherits="MathTVZApp.Ekrani.ManjaCjelina" %>
 <%@ Register TagPrefix="uc" TagName="ucHeader" Src="~/Controls/Header.ascx" %>
-<%@ Register TagPrefix="uc" TagName="ucImaginarnaJedinica" Src="~/Controls/DefinicijaImaginarneJedinice.ascx" %>
+<%@ Register TagPrefix="uc" TagName="ucImaginarnaJedinica" Src="~/Controls/DefinicijaImaginarneJedinice/PocetniEkran.ascx" %>
 
 <!DOCTYPE html>
 

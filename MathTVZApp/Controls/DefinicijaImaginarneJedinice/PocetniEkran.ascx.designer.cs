@@ -7,36 +7,45 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MathTVZApp.Ekrani {
+namespace MathTVZApp.Controls {
     
     
-    public partial class ManjaCjelina {
+    public partial class PocetniEkran {
         
         /// <summary>
-        /// ucHeader control.
+        /// ucImaginarnaJedinicaJednadzba control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MathTVZApp.Controls.Header ucHeader;
+        protected global::MathTVZApp.Controls.ImaginarnaJedinicaJednadzba ucImaginarnaJedinicaJednadzba;
         
         /// <summary>
-        /// BodyFormManjaCjelina control.
+        /// ucImaginarnaJedinicaDefinicija control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm BodyFormManjaCjelina;
+        protected global::MathTVZApp.Controls.DefinicijaImaginarneJedinice.ImaginarnaJedinicaDefinicija ucImaginarnaJedinicaDefinicija;
         
         /// <summary>
-        /// ucImaginarnaJedinica control.
+        /// btnDalje control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::MathTVZApp.Controls.PocetniEkran ucImaginarnaJedinica;
+        protected global::System.Web.UI.WebControls.Button btnDalje;
+        
+        /// <summary>
+        /// btnNazad control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnNazad;
     }
 }

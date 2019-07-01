@@ -67,9 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Controls\DefinicijaImaginarneJedinice.ascx" />
+    <Content Include="Controls\DefinicijaImaginarneJedinice\PocetniEkran.ascx" />
+    <Content Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaJedinicaDefinicija.ascx" />
     <Content Include="Controls\Header.ascx" />
-    <Content Include="Controls\ImaginarnaJedinicaJednadzba.ascx" />
+    <Content Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaJedinicaJednadzba.ascx" />
     <Content Include="CSS\Index.css" />
     <Content Include="CSS\KompleksniBrojevi.css" />
     <Content Include="CSS\Kvizovi.css" />
@@ -103,12 +104,19 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\DefinicijaImaginarneJedinice.ascx.cs">
-      <DependentUpon>DefinicijaImaginarneJedinice.ascx</DependentUpon>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\PocetniEkran.ascx.cs">
+      <DependentUpon>PocetniEkran.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Controls\DefinicijaImaginarneJedinice.ascx.designer.cs">
-      <DependentUpon>DefinicijaImaginarneJedinice.ascx</DependentUpon>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\PocetniEkran.ascx.designer.cs">
+      <DependentUpon>PocetniEkran.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaJedinicaDefinicija.ascx.cs">
+      <DependentUpon>ImaginarnaJedinicaDefinicija.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaJedinicaDefinicija.ascx.designer.cs">
+      <DependentUpon>ImaginarnaJedinicaDefinicija.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\Header.ascx.cs">
       <DependentUpon>Header.ascx</DependentUpon>
@@ -117,11 +125,11 @@
     <Compile Include="Controls\Header.ascx.designer.cs">
       <DependentUpon>Header.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Controls\ImaginarnaJedinicaJednadzba.ascx.cs">
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaJedinicaJednadzba.ascx.cs">
       <DependentUpon>ImaginarnaJedinicaJednadzba.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Controls\ImaginarnaJedinicaJednadzba.ascx.designer.cs">
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaJedinicaJednadzba.ascx.designer.cs">
       <DependentUpon>ImaginarnaJedinicaJednadzba.ascx</DependentUpon>
     </Compile>
     <Compile Include="Ekrani\404PageNotFound.aspx.cs">

@@ -24,5 +24,4 @@
     <p class="trecaRecenica">
         Ne postoji <b><u>realan</u></b> broj čiji je kvadrat jednak broju -1.
     </p>
-    <asp:Button runat="server" ID="btnDalje" CssClass="btnDalje" OnClick="btnDalje_Click" Text="Sljedeće"/>
 </div>
