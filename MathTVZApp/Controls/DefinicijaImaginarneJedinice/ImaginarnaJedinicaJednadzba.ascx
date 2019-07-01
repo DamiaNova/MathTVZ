@@ -7,14 +7,14 @@
     <p id="prvoRjesenje">
         x<sub>1</sub> = 
     </p>
-    <asp:TextBox runat="server" ID="txbPrviOdgovor" CssClass="txbPrviOdgovor"></asp:TextBox>
+    <asp:TextBox runat="server" ID="txbPrviOdgovor" CssClass="txbPrviOdgovor"  style="text-align: center"></asp:TextBox>
     <asp:Button runat="server" ID="btnProvjeriPrvi" CssClass="btnProvjeriPrvi" OnClick="btnProvjeriPrvi_Click" Text="Provjeri" />
     <img src="~\Slike\pozor.png" alt="provjera unosa" ID="imgPozorPrvi" class="imgPozorPrvi" runat="server" Style="visibility: hidden"/>
     <asp:Label runat="server" Text="-" ID="lblPrviOdg" CssClass="lblPrviOdg" Style="visibility: hidden"></asp:Label>
     <p id="drugoRjesenje">
         x<sub>2</sub> = 
     </p>
-    <asp:TextBox runat="server" ID="txbDrugiOdgovor" CssClass="txbDrugiOdgovor"></asp:TextBox>
+    <asp:TextBox runat="server" ID="txbDrugiOdgovor" CssClass="txbDrugiOdgovor"  style="text-align: center"></asp:TextBox>
     <asp:Button runat="server" ID="btnProvjeriDrugi" CssClass="btnProvjeriDrugi" Text="Provjeri" OnClick="btnProvjeriDrugi_Click"/>
     <img src="~\Slike\ok.png" alt="provjera unosa" ID="imgPozorDrugi" class="imgPozorDrugi" runat="server" Style="visibility: hidden"/>
     <asp:Label runat="server" Text="-" ID="lblDrugiOdg" CssClass="lblDrugiOdg" Style="visibility: hidden"></asp:Label>

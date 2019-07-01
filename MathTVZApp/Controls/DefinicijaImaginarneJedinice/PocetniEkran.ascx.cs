@@ -27,7 +27,11 @@ namespace MathTVZApp.Controls
             var brKontrole = Int32.Parse(ViewState["BrojUserKontrole"].ToString());
             if(brKontrole.Equals(0))
             {
-                postaviPrvuKontrolu();
+                PostaviPrvuKontrolu();
+            }
+            else if (brKontrole.Equals(1))
+            {
+                PostaviTrecuKontrolu();
             }
         }
 
@@ -37,6 +41,10 @@ namespace MathTVZApp.Controls
             if (brKontrole.Equals(1))
             {
                 PostaviNultuKontrolu();
+            }
+            else if (brKontrole.Equals(2))
+            {
+                PostaviPrvuKontrolu();
             }
         }
 
@@ -49,9 +57,20 @@ namespace MathTVZApp.Controls
             ViewState["BrojUserKontrole"] = 0;
         }
 
-        private void postaviPrvuKontrolu()
+        private void PostaviTrecuKontrolu()
+        {
+            ucImaginarnaMiniKviz.Visible = true;
+            ucImaginarnaJedinicaDefinicija.Visible = false;
+            ucImaginarnaJedinicaJednadzba.Visible = false;
+            btnNazad.Visible = true;
+            btnDalje.Visible = false;
+            ViewState["BrojUserKontrole"] = 2;
+        }
+
+        private void PostaviPrvuKontrolu()
         {
             ucImaginarnaJedinicaJednadzba.Visible = false;
+            ucImaginarnaMiniKviz.Visible = false;
             ucImaginarnaJedinicaDefinicija.Visible = true;
             btnNazad.Visible = true;
             btnDalje.Visible = true;

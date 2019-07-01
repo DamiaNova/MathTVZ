@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaMiniKviz.ascx" />
     <Content Include="Controls\DefinicijaImaginarneJedinice\PocetniEkran.ascx" />
     <Content Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaJedinicaDefinicija.ascx" />
     <Content Include="Controls\Header.ascx" />
@@ -104,6 +105,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaMiniKviz.ascx.cs">
+      <DependentUpon>ImaginarnaMiniKviz.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DefinicijaImaginarneJedinice\ImaginarnaMiniKviz.ascx.designer.cs">
+      <DependentUpon>ImaginarnaMiniKviz.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\DefinicijaImaginarneJedinice\PocetniEkran.ascx.cs">
       <DependentUpon>PocetniEkran.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

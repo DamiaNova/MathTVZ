@@ -11,5 +11,86 @@ namespace MathTVZApp.Controls.DefinicijaImaginarneJedinice {
     
     
     public partial class ImaginarnaJedinicaDefinicija {
+        
+        /// <summary>
+        /// txbPrviOdgovor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txbPrviOdgovor;
+        
+        /// <summary>
+        /// btnProvjeriPrvi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnProvjeriPrvi;
+        
+        /// <summary>
+        /// imgPozorPrvi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgPozorPrvi;
+        
+        /// <summary>
+        /// lblPrviOdg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPrviOdg;
+        
+        /// <summary>
+        /// txbDrugiOdgovor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txbDrugiOdgovor;
+        
+        /// <summary>
+        /// btnProvjeriDrugi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnProvjeriDrugi;
+        
+        /// <summary>
+        /// imgPozorDrugi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgPozorDrugi;
+        
+        /// <summary>
+        /// lblDrugiOdg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDrugiOdg;
+        
+        /// <summary>
+        /// btnRjesenja control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRjesenja;
     }
 }

@@ -31,6 +31,15 @@ namespace MathTVZApp.Controls {
         protected global::MathTVZApp.Controls.DefinicijaImaginarneJedinice.ImaginarnaJedinicaDefinicija ucImaginarnaJedinicaDefinicija;
         
         /// <summary>
+        /// ucImaginarnaMiniKviz control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::MathTVZApp.Controls.DefinicijaImaginarneJedinice.ImaginarnaMiniKviz ucImaginarnaMiniKviz;
+        
+        /// <summary>
         /// btnDalje control.
         /// </summary>
         /// <remarks>

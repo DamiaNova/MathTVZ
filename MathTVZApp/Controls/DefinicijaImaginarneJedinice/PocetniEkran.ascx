@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PocetniEkran.ascx.cs" Inherits="MathTVZApp.Controls.PocetniEkran" %>
 <%@ Register TagPrefix="uc" TagName="ucJednadzba" Src="~/Controls/DefinicijaImaginarneJedinice/ImaginarnaJedinicaJednadzba.ascx" %>
 <%@ Register TagPrefix="uc2" TagName="ucDefinicija" Src="~/Controls/DefinicijaImaginarneJedinice/ImaginarnaJedinicaDefinicija.ascx" %>
+<%@ Register TagPrefix="uc3" TagName="ucMiniKviz" Src="~/Controls/DefinicijaImaginarneJedinice/ImaginarnaMiniKviz.ascx" %>
 <div>
     <h1 id="naslovKompleksniBrojevi">1. Kompleksni brojevi</h1>
     <img src="~/Slike/NavigacijaImaginarnaJedinica.png" alt="navigacijska slika" runat="server" class="imgNavigacija"/>
@@ -10,6 +11,7 @@
     <div id="glavniDio">
         <uc:ucJednadzba ID="ucImaginarnaJedinicaJednadzba" runat="server"/>
         <uc2:ucDefinicija ID="ucImaginarnaJedinicaDefinicija" runat="server" visible="false"/>
+        <uc3:ucMiniKviz ID="ucImaginarnaMiniKviz" runat="server" visible="false"/>
         <asp:Button runat="server" ID="btnDalje" CssClass="btnDalje" OnClick="btnDalje_Click" Text="Sljedeće"/>
         <asp:Button runat="server" ID="btnNazad" CssClass="btnNazad" OnClick="btnNazad_Click" Text="Nazad"/>
     </div>

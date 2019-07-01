@@ -78,6 +78,31 @@
     margin-top: 25px;
     margin-left: 25px;
 }
+.prvaRecenicaMiniKviz {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 170%;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.prvoPitanje {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 85px;
+    margin-left: 25px;
+}
+.ispodPrveRecenice {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 75px;
+    margin-left: 25px;
+}
 .drugaRecenica {
     position: absolute;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -85,6 +110,54 @@
     font-size: 130%;
     margin-top: 230px;
     margin-left: 25px;
+}
+.drugoPitanje {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 210px;
+    margin-left: 25px;
+}
+.trecePitanje {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 85px;
+    margin-left: 525px;
+}
+.zadnjePitanje {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 210px;
+    margin-left: 525px;
+}
+.rblImaginarnaJedinica {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 240px;
+    margin-left: 50px;
+}
+.rblSkupRealnih {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 125px;
+    margin-left: 550px;
+}
+.rblNema {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-top: 250px;
+    margin-left: 550px;
 }
 .trecaRecenica {
     position: absolute;
@@ -102,6 +175,22 @@
     margin-left: 25px;
     margin-top: 85px;
 }
+#prviOdgovor {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-left: 50px;
+    margin-top: 85px;
+}
+#prviOdgovorPitanje {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 130%;
+    margin-left: 50px;
+    margin-top: 145px;
+}
 #drugoRjesenje {
     position: absolute;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -116,6 +205,14 @@
     position: absolute;
     margin-top: 85px;
     margin-left: 75px;
+    box-shadow: black 3px 3px;
+}
+.txbPrviOdgovorPitanje {
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 150px;
     box-shadow: black 3px 3px;
 }
 .txbDrugiOdgovor {
@@ -192,6 +289,74 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 90%;
 }
+.btnRjesenja {
+    padding: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 25px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    border: none;
+    background-color: rgb(165, 142, 218);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+.btnRjesenjaMiniKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 580px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+.btnOcisti {
+    padding: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 780px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+.btnProvjeriMiniKviz {
+    padding: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 970px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    border: none;
+    background-color: rgb(236, 113, 129);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
 .imgPozorPrvi {
     position: absolute;
     height: 30px;
@@ -206,6 +371,13 @@
     margin-top: 85px;
     margin-left: 285px;
 }
+.lblPrviOdgKviz {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    margin-top: 145px;
+    margin-left: 230px;
+}
 .imgPozorDrugi {
     position: absolute;
     height: 30px;
@@ -213,13 +385,61 @@
     margin-top: 145px;
     margin-left: 250px;
 }
-
+.imgTocnoPrvo {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 145px;
+    margin-left: 200px;
+}
+.imgTocnoDrugo {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 240px;
+    margin-left: 140px;
+}
+.imgTreceTocno {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 125px;
+    margin-left: 605px;
+}
+.imgTocnoCetvrto {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 278px;
+    margin-left: 605px;
+}
 .lblDrugiOdg {
     position: absolute;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 140%;
     margin-top: 145px;
     margin-left: 285px;
+}
+.lblDrugiOdgKviz {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    margin-top: 240px;
+    margin-left: 170px;
+}
+.lblTreciOdgKviz {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    margin-top: 125px;
+    margin-left: 635px;
+}
+.lblCetvrtiOdgKviz {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    margin-top: 278px;
+    margin-left: 635px;
 }
 #footerManjaCjelina {
     position: absolute;
