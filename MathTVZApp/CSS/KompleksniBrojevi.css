@@ -22,6 +22,28 @@
     height: 60px;
     width: 300px;
 }
+#lnkLekcije {
+    position: absolute;
+    margin-top: -905px;
+    margin-left: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    text-transform: capitalize;
+    color: rgb(235, 184, 224);
+    z-index: 1;
+    width: 90px;
+}
+#lnkKompleksni {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -905px;
+    margin-left: 305px;
+    font-size: 100%;
+    text-transform: none;
+    color: rgb(063, 039, 147);
+    width: 150px;
+    z-index: 2;
+}
 #footerKompleksni {
     position: absolute;
     overflow: hidden;

@@ -19,6 +19,8 @@
             <div>
                 <h1 id="naslovKompleksni">1. Kompleksni brojevi</h1>
                 <img src="~/Slike/NavigacijaKompleksni.png" alt="navigacijska slika" runat="server" id="imgNavigacijaKompleksni"/>
+                <a href="/Lekcije" id="lnkLekcije">Lekcije</a>
+                <a href="#" id="lnkKompleksni">Kompleksni brojevi</a>
             </div>
         </div>
     </form>
