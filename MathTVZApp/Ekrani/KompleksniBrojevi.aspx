@@ -21,12 +21,36 @@
                 <img src="~/Slike/NavigacijaKompleksni.png" alt="navigacijska slika" runat="server" id="imgNavigacijaKompleksni"/>
                 <a href="/Lekcije" id="lnkLekcije">Lekcije</a>
                 <a href="#" id="lnkKompleksni">Kompleksni brojevi</a>
-                <div id="imaginarnaJedinica"></div>
-                <div id="kompleksnogBroja"></div>
-                <div id="operacije"></div>
-                <div id="trigonometrijskiOblik"></div>
-                <div id="eksponencijalniOblik"></div>
-                <div id="zadaciKompleksni"></div>
+                <div id="imaginarnaJedinica">
+                    <div class="prozirno">
+                        <p class="nazivLekcije">1.1 Definicija imaginarne jedinice</p>
+                    </div>
+                </div>
+                <div id="kompleksnogBroja">
+                    <div class="prozirno">
+                        <p class="nazivLekcije">1.2 Definicija kompleksnog broja</p>
+                    </div>
+                </div>
+                <div id="operacije">
+                    <div class="prozirno">
+                        <p class="nazivLekcije">1.3 Operacije s kompleksnim brojevima</p>
+                    </div>
+                </div>
+                <div id="trigonometrijskiOblik">
+                    <div class="prozirno">
+                        <p class="nazivLekcije">1.4 Trigonometrijski oblik kompleksnog broja</p>
+                    </div>
+                </div>
+                <div id="eksponencijalniOblik">
+                    <div class="prozirno">
+                        <p class="nazivLekcije">1.5 Eksponencijalni oblik kompleksnog broja</p>
+                    </div>
+                </div>
+                <div id="zadaciKompleksni">
+                    <div class="prozirno">
+                        <p class="nazivLekcije">1.6 Zadaci i primjeri za vježbu</p>
+                    </div>
+                </div>
                 <asp:Button runat="server" ID="btnPovratak" Text="Povratak" CssClass="btnPovratak" OnClick="btnPovratak_Click"/>
             </div>
         </div>

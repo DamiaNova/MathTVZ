@@ -50,7 +50,12 @@
     height: 200px;
     margin-top: -850px;
     margin-left: 180px;
-    background-color: rebeccapurple;
+    background-image: url("../Slike/NightSkyLong5.png");
+}
+#imaginarnaJedinica:hover {
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    overflow: hidden;
 }
 #kompleksnogBroja {
     position: absolute;
@@ -58,7 +63,12 @@
     height: 200px;
     margin-top: -850px;
     margin-left: 780px;
-    background-color: rebeccapurple;
+    background-image: url("../Slike/NightSkyLong2.png");
+}
+#kompleksnogBroja:hover {
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    overflow: hidden;
 }
 #operacije {
     position: absolute;
@@ -66,7 +76,12 @@
     height: 200px;
     margin-top: -620px;
     margin-left: 180px;
-    background-color: rebeccapurple;
+    background-image: url("../Slike/NightSkyLong6.png");
+}
+#operacije:hover {
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    overflow: hidden;
 }
 #trigonometrijskiOblik {
     position: absolute;
@@ -74,7 +89,12 @@
     height: 200px;
     margin-top: -620px;
     margin-left: 780px;
-    background-color: rebeccapurple;
+    background-image: url("../Slike/NightSkyLong4.png");
+}
+#trigonometrijskiOblik:hover {
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    overflow: hidden;
 }
 #eksponencijalniOblik {
     position: absolute;
@@ -82,7 +102,12 @@
     height: 200px;
     margin-top: -390px;
     margin-left: 180px;
-    background-color: rebeccapurple;
+    background-image: url("../Slike/NightSkyLong3.png");
+}
+#eksponencijalniOblik:hover {
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    overflow: hidden;
 }
 #zadaciKompleksni {
     position: absolute;
@@ -90,7 +115,28 @@
     height: 200px;
     margin-top: -390px;
     margin-left: 780px;
-    background-color: rebeccapurple;
+    background-image: url("../Slike/NightSkyLong1.png");
+}
+#zadaciKompleksni:hover {
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    overflow: hidden;
+}
+.prozirno {
+    position: absolute;
+    height: 200px;
+    width: 220px;
+    margin-left: 0px;
+    background-color: rgba(255,255,255,0.3);
+}
+.nazivLekcije {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .btnPovratak {
     padding: 0;
