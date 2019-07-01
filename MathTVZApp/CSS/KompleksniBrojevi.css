@@ -44,6 +44,70 @@
     width: 150px;
     z-index: 2;
 }
+#imaginarnaJedinica {
+    position: absolute;
+    width: 560px;
+    height: 200px;
+    margin-top: -850px;
+    margin-left: 180px;
+    background-color: rebeccapurple;
+}
+#kompleksnogBroja {
+    position: absolute;
+    width: 560px;
+    height: 200px;
+    margin-top: -850px;
+    margin-left: 780px;
+    background-color: rebeccapurple;
+}
+#operacije {
+    position: absolute;
+    width: 560px;
+    height: 200px;
+    margin-top: -620px;
+    margin-left: 180px;
+    background-color: rebeccapurple;
+}
+#trigonometrijskiOblik {
+    position: absolute;
+    width: 560px;
+    height: 200px;
+    margin-top: -620px;
+    margin-left: 780px;
+    background-color: rebeccapurple;
+}
+#eksponencijalniOblik {
+    position: absolute;
+    width: 560px;
+    height: 200px;
+    margin-top: -390px;
+    margin-left: 180px;
+    background-color: rebeccapurple;
+}
+#zadaciKompleksni {
+    position: absolute;
+    width: 560px;
+    height: 200px;
+    margin-top: -390px;
+    margin-left: 780px;
+    background-color: rebeccapurple;
+}
+.btnPovratak {
+    padding: 0;
+    overflow: hidden;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 180px;
+    border-radius: 20px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
 #footerKompleksni {
     position: absolute;
     overflow: hidden;

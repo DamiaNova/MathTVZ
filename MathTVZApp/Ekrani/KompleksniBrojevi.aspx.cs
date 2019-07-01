@@ -13,5 +13,10 @@ namespace MathTVZApp.Ekrani
         {
 
         }
+
+        protected void btnPovratak_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~\\Lekcije");
+        }
     }
 }

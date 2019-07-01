@@ -21,6 +21,13 @@
                 <img src="~/Slike/NavigacijaKompleksni.png" alt="navigacijska slika" runat="server" id="imgNavigacijaKompleksni"/>
                 <a href="/Lekcije" id="lnkLekcije">Lekcije</a>
                 <a href="#" id="lnkKompleksni">Kompleksni brojevi</a>
+                <div id="imaginarnaJedinica"></div>
+                <div id="kompleksnogBroja"></div>
+                <div id="operacije"></div>
+                <div id="trigonometrijskiOblik"></div>
+                <div id="eksponencijalniOblik"></div>
+                <div id="zadaciKompleksni"></div>
+                <asp:Button runat="server" ID="btnPovratak" Text="Povratak" CssClass="btnPovratak" OnClick="btnPovratak_Click"/>
             </div>
         </div>
     </form>
